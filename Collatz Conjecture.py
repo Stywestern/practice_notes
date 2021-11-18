@@ -1,3 +1,4 @@
+# Ptyhon 3.8
 # A simple bit of code to see evolution of number in the Collatz Conjecture.
 
 list_of_numbers = []
