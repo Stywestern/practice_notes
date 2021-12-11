@@ -1,2 +1,3 @@
 # practice_notes
-A repository to store things I did.
+To anyone who reads the snippets of this repository,
+your comments/recommendations on the efficiency of my codes would be appreciated.
