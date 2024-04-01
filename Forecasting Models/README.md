@@ -1,41 +1,40 @@
-# Karaca Öngörü Modelleri projesi içeriği hakkında
+# Introduction
+This project was created to train forecasting models with Karaca Retail sales data, compare commonly used models in this specific task, and provide demos of Artificial Intelligence models to my colleagues. I aimed to create a modular structure so that notebooks containing different data and targeting other objectives could be easily modified. My goal was to provide an infrastructure for such AI developments in the future.
 
-## Giriş
-Bu proje Karaca Mağazacılık satış verileri ile öngörü modelleri eğitmek, sık kullanılan modelleri bu spesifik görevde karşılaştırmak ve iş arkadaşlarıma Yapay Zeka modellerinin demosunu bırakmak adına oluşturulmuştur.
-Projenin içerdiği notebook'ları farklı veriler kullanılıp başka hedefler istenilmesi halinde rahatça değiştirelebilecek şekilde modüler oluşturmaya çalıştım. Amacım ileride bu tür YZ geliştirmeleri yapılmak istenirse bunlar için bir altyapı sağlayabilmekti.
+## Project Content
+### Folders and Files
+* DATASETS: Holds raw and processed data
+* MODELS: Stores trained and selected final models for deployment
+* RNN Model Graphs: Contains images showing the internal architecture of Recurrent Neural Network models
+* saved_GRU and saved_LSTM: Stores parameters for RNN models trained per epoch
+* catboost_info: Stores information related to the training of the Categorical Boosting algorithm
+* column_docs: Holds information regarding the columns of raw data
+* normalization_stats: Stores normalization statistics
 
-## Projenin içeriği
-### Klasörler ve dosyalar
-* DATASETS: İşlenmemiş ve işlenmiş verileri tutar
-* MODELS: Eğitilmiş ve uygulama için seçilmiş son modelleri tutar
-* RNN Model Graphs: Recurrent Neural Network modellerini iç mimarisini gösteren görüntüleri tutar
-* saved_GRU ve saved_LSTM: RNN modellerinin epoch başına eğitildikleri parametreleri tutar
-* catboost_info: Categorical Boosting algoritmasının eğitilmesi ile ilgili bilgiler tutar
-* column_docs: Ham verinin sütunları ile alakalı bilgileri tutar
-* normalization_stats: Normalizasyon istatistiklerini saklar
-
-### Notebook'lar
-Notebook'ları 4 grup halinde sınıflandırmak mümkün
-1) Veri Analizi Notebook'ları: Verileri incelemek ve değiştirmek için kullanılan notebook'lar
-   * EDA 1 (General).ipynb: Veriye genel bir bakış
-   * EDA 2 (Descriptive Statistics).ipynb: Sütunlar hakkında detaylı bilgi
-   * EDA 3 (Further Cleaning).ipynb: Veriyi hedef ve istekler doğrultusunda temizleme
-2) Model Notebook'ları: Modellerin eğitildikleri, değerlendirildikleri ve açıklandıkları notebook'lar
-   * RNN Models - Main.ipynb: RNN modelleri hakkında ana notebook
-   * RNN Models - Prototype.ipynb: Ana RNN modellerinin sekans büyüklüğü birden fazla olmayan hali
-   * Linear Models.ipynb: Lineer regresyon modelleri
-   * Tree Models.ipynb: Ağaç modelleri
-   * ARIMA Models.ipynb: ARIMA modelleri
-   * Prophet Models.ipynb: Meta'nın geliştirdiği açık kaynak kodlu öngörü algoritması
-3) Uygulama Notebook'ları: Gradio kütüphanesi kullanılarak oluşturulmuş, kullanıcı arayüzü oluşturmaya yarayan notebook'lar 
-   * Gradio - RNN.ipynb: RNN modelleri için Gradio
-   * Gradio - Linear.ipynb: En iyi lineer model için Gradio
-   * Gradio - Tree.ipynb: En iyi ağaç modeli için Gradio
-   * Gradio - Prophet.ipynb: En iyi Prophet modeli için Gradio
-4) İşlevsel Notebook: İçinde birkaç fonksiyon barındıran bir notebook
+### Notebooks
+Notebooks can be classified into 4 groups:
+1) Data Analysis Notebooks: Notebooks used to examine and manipulate data
+   * EDA 1 (General).ipynb: General overview of the data
+   * EDA 2 (Descriptive Statistics).ipynb: Detailed information about columns
+   * EDA 3 (Further Cleaning).ipynb: Cleaning the data according to targets and requests
+2) Model Notebooks: Notebooks where models are trained, evaluated, and explained
+   * RNN Models - Main.ipynb: Main notebook about RNN models
+   * RNN Models - Prototype.ipynb: Prototype of main RNN models without multiple sequence sizes
+   * Linear Models.ipynb: Linear regression models
+   * Tree Models.ipynb: Tree models
+   * ARIMA Models.ipynb: ARIMA models
+   * Prophet Models.ipynb: Open-source forecasting algorithm developed by Meta
+3) Application Notebooks: Notebooks created using the Gradio library to create a user interface
+   * Gradio - RNN.ipynb: Gradio for RNN models
+   * Gradio - Linear.ipynb: Gradio for the best linear model
+   * Gradio - Tree.ipynb: Gradio for the best tree model
+   * Gradio - Prophet.ipynb: Gradio for the best Prophet model
+4) Functional Notebook: A notebook containing several functions
    * Utilities.ipynb
   
-## Yazar tarafından önerilen görüntüleme sıralaması
-Notebook'ların çoğu kendi içinde bir bütün olarak çalışabilir, ancak birbirleri ile birçok ortak fonksiyon ve bölüm içeriyorlar. Okuyucu için daha rahat olması adına sürekli aynı açıklamaları yapmaktan kaçınmak istedim. Bu yüzden aynı gruptaki notebook'lar için genel açıklamaları her grubun ilk elemanı olarak yazdığım notebook'a koydum. Diğer notebook'larda da aynı grupta diğerlerinde olmayan kısımların açıklamaları bulunuyor. "Notebook'lar" kısımında sıralandığı gibi okursanız tüm açıklamaları görebilirsiniz.
+## Recommended Viewing Order by the Author
+Most notebooks can function independently, but they contain many common functions and sections with each other. To avoid constantly repeating the same explanations for the reader, I preferred not to include general explanations for notebooks in the same group. Therefore, I placed the general explanations for notebooks in the same group as the first element of each group. Other notebooks contain explanations of parts not present in others in the same group. If you read them as listed in the "Notebooks" section, you can see all the explanations.
 
-## Notlar
+## Notes
+### About Model Performances:
+The dataset was not comprehensive enough to produce a useful model generalized to the task, but if a performance ranking is still needed, it can be shown as Tree > Prophet > Linear > RNN. I did not optimize NN models, so their relatively low performance can be explained this way. If there is to be any future development, I recommend giving more weight to NN models compared to others.```
