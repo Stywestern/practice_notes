@@ -1,4 +1,4 @@
-**This project is the copy of my work for M.A.R.S. Technology, and thus it doesn't have the data because of sensibility issues. Also the explanations inside the notebooks are in Turkish.**
+**This project is the copy of my work for M.A.R.S. Technology -then Core IT company for Karaca-, and thus it doesn't have the data because of sensibility issues. Also the explanations inside the notebooks are in Turkish.**
 
 # Introduction
 This project was created to train forecasting models with Karaca Retail sales data, compare commonly used models in this specific task, and provide demos of Artificial Intelligence models to my colleagues. I aimed to create a modular structure so that notebooks containing different data and targeting other objectives could be easily modified. My goal was to provide an infrastructure for such AI developments in the future.
