@@ -1,0 +1,41 @@
+{
+    "microsoft_icon": "inputs/Microsoft.ico",
+    "service_one": {
+      "file1": {
+        "file_path": "C:/Users/v-kcantimur/Desktop/microsoft_excel_task/inputs/files_to_compare_forecasts/ACR-Report-C2025-01-17-111700.xlsx",
+        "sheet_name": "ACRs\ud83d\udd22",
+        "unique_id_column": "TPID",
+        "forecast_column": "Forecast",
+        "extra_columns": ["TopParent", "SummarySegment"]
+      },
+      "file2": {
+        "file_path": "C:/Users/v-kcantimur/Desktop/microsoft_excel_task/inputs/files_to_compare_forecasts/Book1.xlsx",
+        "sheet_name": "Sheet1",
+        "unique_id_column": "TPID",
+        "forecast_column": "Frst RR"
+      }
+    },
+    "service_two": {
+      "file1": {
+        "file_path": "C:/Users/v-kcantimur/Desktop/microsoft_excel_task/inputs/files_to_check_changes/account_level_details_1.xlsx",
+        "sheet_name": "Export"
+      },
+      "file2": {
+        "file_path": "C:/Users/v-kcantimur/Desktop/microsoft_excel_task/inputs/files_to_check_changes/account_level_details_2.xlsx",
+        "sheet_name": "Export"
+      }
+    },
+    "service_three": {
+      "file1": {
+        "file_path": "C:/Users/v-kcantimur/Desktop/microsoft_excel_task/inputs/files_to_show_milestones/20241117_1547.xlsx",
+        "sheet_name": "Sheet1",
+        "date": ""
+      },
+  
+      "file2": {
+        "file_path": "C:/Users/v-kcantimur/Desktop/microsoft_excel_task/inputs/files_to_show_milestones/20241117_1547.xlsx",
+        "sheet_name": "Sheet1",
+        "date": ""
+      }
+    }
+  }

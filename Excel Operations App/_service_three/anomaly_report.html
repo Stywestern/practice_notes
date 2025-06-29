@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ report_title }}</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 20px;
+        }
+        .summary-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            background-color: #f9f9f9;
+            display: flex; /* Enable flexbox */
+            flex-direction: row; /* Arrange items in a row */
+            align-items: flex-start; /* Align items to the top */
+        }
+        .summary-text {
+            flex-grow: 1; /* Allow text to take up remaining space */
+            margin-right: 20px;
+            min-width: 0; /* Important to allow text to shrink and not overflow */
+        }
+        .summary-charts-right {
+            width: 50%; /* Adjust width as needed for the charts side by side */
+            padding: 10px;
+            border-radius: 4px;
+            box-sizing: border-box;
+            text-align: center;
+            display: flex; /* Enable flexbox to arrange charts horizontally */
+            flex-direction: row; /* Arrange items in a row */
+            justify-content: space-around; /* Distribute space around charts */
+            align-items: center; /* Vertically align charts in the center */
+            flex-wrap: wrap; /* Allow charts to wrap if there are too many */
+            gap: 10px; /* Spacing between the charts */
+        }
+
+        .summary-charts-right h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #777;
+            font-size: 1.2em;
+            width: 100%; /* Ensure the heading spans the full width */
+            text-align: center; /* Center the heading */
+        }
+
+        .summary-charts-right img {
+            max-width: calc(50% - 20px); /* Adjust width for two charts side by side with gap */
+            height: auto;
+            border: 1px solid #eee;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-bottom: 0; /* Remove default bottom margin as gap is used */
+        }
+        .plots-container {
+            display: flex; /* Enable flexbox for plots */
+            flex-wrap: wrap; /* Allow plots to wrap to the next line if needed */
+            gap: 20px; /* Spacing between plots */
+            margin-bottom: 20px;
+        }
+        .plot-container {
+            flex: 1 0 calc(50% - 20px); /* Distribute plots into two columns with spacing */
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .plot-container h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+            color: #555;
+            text-align: center;
+        }
+        hr {
+            border: 1px solid #eee;
+            margin: 30px 0;
+            width: 100%; /* Ensure hr spans the full width */
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ report_heading }}</h1>
+
+    <div class="summary-container">
+        <div class="summary-text">
+            <h2>Executive Summary</h2>
+            <p><strong>Analysis Period:</strong> {{ summary_start }} to {{ summary_end }}</p>
+            <p><strong>Total Companies Analyzed:</strong> {{ total_companies }}</p>
+            <p><strong>Flagged Service Instances:</strong> {{ total_anomalous_services }}</p>
+            <p><strong>Anomaly Direction Summary:</strong></p>
+            <ul>
+                <li><strong>Increase:</strong> {{ increase_count }} services</li>
+                <li><strong>Decrease:</strong> {{ decrease_count }} services</li>
+            </ul>
+            <p><strong>Top Affected Companies (by number of anomalous services):</strong></p>
+            <ul>
+                {% for company, service_count in top_affected_companies.items() %}
+                <li>{{ company }} ({{ service_count }} services)</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="summary-charts-right">
+            <h3>Key Metrics</h3>
+            {% if anomaly_direction_chart %}
+            <img src="data:image/png;base64,{{ anomaly_direction_chart }}" alt="Anomaly Direction Breakdown">
+            {% endif %}
+            {% if top_affected_companies_chart %}
+            <img src="data:image/png;base64,{{ top_affected_companies_chart }}" alt="Top Affected Companies">
+            {% endif %}
+            {% if flags_per_service_chart %}
+            <img src="data:image/png;base64,{{ flags_per_service_chart }}" alt="Flags per Service">
+            {% endif %}
+            {% if anomaly_trend_chart %}
+            <img src="data:image/png;base64,{{ anomaly_trend_chart }}" alt="Anomaly Trend Over Time">
+            {% endif %}
+            {% if usage_pie_chart %}
+            <img src="data:image/png;base64,{{ usage_pie_chart }}" alt="Usage Percentage by Service">
+            {% endif %}
+        </div>
+    </div>
+
+    <h2>Individual Service Anomaly Plots</h2>
+    <div class="sorting-options">
+        <label>Sort by:</label>
+        <select id="plot-sort">
+            <option value="company">Company - Service (A-Z)</option>
+            <option value="acr">Median ACR Value</option>
+        </select>
+        <noscript><p>Please enable JavaScript to dynamically sort the plots.</p></noscript>
+    </div>
+    <div class="plots-container" id="plot-grid">
+        {% set sorted_plots = plot_data_company %}
+        {% if sort_key == 'acr' %}
+            {% set sorted_plots = plot_data_acr %}
+        {% endif %}
+        {% for plot in sorted_plots %}
+        <div class="plot-container">
+            <h3>{{ plot.company_service }}</h3>
+            <img src="{{ plot.path }}" style="max-width:100%; height:auto;">
+        </div>
+        {% endfor %}
+    </div>
+    <hr>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const sortSelect = document.getElementById('plot-sort');
+            const plotGrid = document.getElementById('plot-grid');
+    
+            // Define both datasets up front
+            const plotDataCompany = {{ plot_data_company | tojson }};
+            const plotDataAcr = {{ plot_data_acr | tojson }};
+    
+            // Default rendering
+            renderPlots(plotDataCompany);
+    
+            sortSelect.addEventListener('change', function () {
+                const sortBy = this.value;
+                let plotData = plotDataCompany;
+    
+                if (sortBy === 'acr') {
+                    plotData = plotDataAcr;
+                }
+    
+                renderPlots(plotData);
+            });
+    
+            function renderPlots(data) {
+                let sortedPlotsHTML = '';
+                data.forEach(plot => {
+                    sortedPlotsHTML += `
+                        <div class="plot-container">
+                            <h3>${plot.company_service}</h3>
+                            <img src="${plot.path}" style="max-width:100%; height:auto;">
+                        </div>
+                    `;
+                });
+                plotGrid.innerHTML = sortedPlotsHTML;
+            }
+        });
+    </script>
+</body>
+</html>
