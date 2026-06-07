@@ -1,0 +1,9 @@
+ros2 pkg create turret_control --build-type ament_cmake --node-name turret_node --dependencies rclcpp std_msgs 
+
+colcon build --packages-select turret_control --symlink-install
+source install/setup.bash
+./devrun.sh
+
+ros2 topic pub --once /turret_command std_msgs/msg/Float64 "{data: 90.0}"
+ros2 service call /toggle_safety std_srvs/srv/SetBool "{data: true}"
+ros2 action send_goal /rotate_turret turret_control/action/RotateTurret "{target_angle: 90.0}" --feedback

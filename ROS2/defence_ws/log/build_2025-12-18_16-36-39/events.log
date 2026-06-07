@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.000854] (turret_control) JobQueued: {'identifier': 'turret_control', 'dependencies': OrderedDict()}
+[0.000912] (turret_control) JobStarted: {'identifier': 'turret_control'}
+[0.016060] (turret_control) JobProgress: {'identifier': 'turret_control', 'progress': 'cmake'}
+[0.017501] (turret_control) JobProgress: {'identifier': 'turret_control', 'progress': 'build'}
+[0.018282] (turret_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/stywestern/defence_ws/build/turret_control', '--', '-j20', '-l20'], 'cwd': '/home/stywestern/defence_ws/build/turret_control', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'stywestern'), ('GIT_ASKPASS', '/home/stywestern/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/home/stywestern/defence_ws/install/turret_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/stywestern'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b59029dc-a203-4ab8-a47c-cc112f0f054d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/stywestern/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/stywestern/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/stywestern/defence_ws/install:/home/stywestern/ros2_ws_python/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'stywestern'), ('NAME', 'Code'), ('_', '/usr/bin/colcon'), ('WSL_INTEROP', '/run/WSL/749_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/stywestern/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/hp/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/hp/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/hp/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/hp/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/hp/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/hp/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/hp/AppData/Local/Programs/Ollama:/snap/bin'), ('WT_SESSION', '816d486e-b17e-47bc-bdc1-359569643068'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/stywestern/.vscode-server/data/User/workspaceStorage/8f0f8c96764129fa4a7c058e106905fb/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b8d024e480.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/stywestern/defence_ws/install/turret_control:/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/stywestern/defence_ws/build/turret_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages:/home/stywestern/ros2_ws_python/build/my_robot_controller:/home/stywestern/ros2_ws_python/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/stywestern/defence_ws/install/turret_control:/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.095801] (turret_control) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.096713] (turret_control) StdoutLine: {'line': b'-- Found ament_cmake_core: 1.3.12 (/opt/ros/humble/share/ament_cmake_core/cmake)\n'}
+[0.099669] (-) TimerEvent: {}
+[0.199961] (-) TimerEvent: {}
+[0.233550] (turret_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.239524] (turret_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.245959] (turret_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.300078] (-) TimerEvent: {}
+[0.400503] (-) TimerEvent: {}
+[0.461658] (turret_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500625] (-) TimerEvent: {}
+[0.600921] (-) TimerEvent: {}
+[0.701309] (-) TimerEvent: {}
+[0.801707] (-) TimerEvent: {}
+[0.821438] (turret_control) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.901840] (-) TimerEvent: {}
+[1.002225] (-) TimerEvent: {}
+[1.006871] (turret_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.102310] (-) TimerEvent: {}
+[1.202699] (-) TimerEvent: {}
+[1.253630] (turret_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.276917] (turret_control) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.298838] (turret_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.299238] (turret_control) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.299293] (turret_control) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.302820] (-) TimerEvent: {}
+[1.318491] (turret_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.362083] (turret_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.364963] (turret_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.402900] (-) TimerEvent: {}
+[1.503260] (-) TimerEvent: {}
+[1.603656] (-) TimerEvent: {}
+[1.704120] (-) TimerEvent: {}
+[1.804504] (-) TimerEvent: {}
+[1.904806] (-) TimerEvent: {}
+[2.005127] (-) TimerEvent: {}
+[2.105431] (-) TimerEvent: {}
+[2.205713] (-) TimerEvent: {}
+[2.305998] (-) TimerEvent: {}
+[2.406261] (-) TimerEvent: {}
+[2.506528] (-) TimerEvent: {}
+[2.606850] (-) TimerEvent: {}
+[2.707215] (-) TimerEvent: {}
+[2.807545] (-) TimerEvent: {}
+[2.907856] (-) TimerEvent: {}
+[3.008182] (-) TimerEvent: {}
+[3.108474] (-) TimerEvent: {}
+[3.208747] (-) TimerEvent: {}
+[3.309093] (-) TimerEvent: {}
+[3.409533] (-) TimerEvent: {}
+[3.509897] (-) TimerEvent: {}
+[3.610207] (-) TimerEvent: {}
+[3.710532] (-) TimerEvent: {}
+[3.810885] (-) TimerEvent: {}
+[3.911245] (-) TimerEvent: {}
+[4.011595] (-) TimerEvent: {}
+[4.112014] (-) TimerEvent: {}
+[4.212424] (-) TimerEvent: {}
+[4.312770] (-) TimerEvent: {}
+[4.413131] (-) TimerEvent: {}
+[4.513419] (-) TimerEvent: {}
+[4.613908] (-) TimerEvent: {}
+[4.714221] (-) TimerEvent: {}
+[4.814530] (-) TimerEvent: {}
+[4.914872] (-) TimerEvent: {}
+[5.015233] (-) TimerEvent: {}
+[5.115553] (-) TimerEvent: {}
+[5.215938] (-) TimerEvent: {}
+[5.316406] (-) TimerEvent: {}
+[5.417114] (-) TimerEvent: {}
+[5.518106] (-) TimerEvent: {}
+[5.618615] (-) TimerEvent: {}
+[5.648693] (turret_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.718746] (-) TimerEvent: {}
+[5.754877] (turret_control) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[5.776326] (turret_control) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[5.794630] (turret_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.818812] (-) TimerEvent: {}
+[5.821515] (turret_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.821955] (turret_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/stywestern/defence_ws/src/turret_control/include>\n'}
+[5.822060] (turret_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.822878] (turret_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.824321] (turret_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.824657] (turret_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.824779] (turret_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.830276] (turret_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.904548] (turret_control) StdoutLine: {'line': b'-- Generating done\n'}
+[5.918666] (turret_control) StdoutLine: {'line': b'-- Build files have been written to: /home/stywestern/defence_ws/build/turret_control\n'}
+[5.918855] (-) TimerEvent: {}
+[5.947174] (turret_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turret_control__rosidl_generator_c\x1b[0m\n'}
+[5.947768] (turret_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turret_node\x1b[0m\n'}
+[5.954921] (turret_control) StdoutLine: {'line': b'[  3%] Built target turret_control__cpp\n'}
+[5.955612] (turret_control) StdoutLine: {'line': b'[ 12%] Built target turret_control__rosidl_generator_c\n'}
+[5.961050] (turret_control) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/turret_node.dir/src/turret_node.cpp.o\x1b[0m\n'}
+[5.961792] (turret_control) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_symlink_turret_control\n'}
+[5.963950] (turret_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.964280] (turret_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.964687] (turret_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.976477] (turret_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.977328] (turret_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_c\x1b[0m\n'}
+[5.977905] (turret_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.979763] (turret_control) StdoutLine: {'line': b'[ 24%] Built target turret_control__rosidl_typesupport_cpp\n'}
+[5.984491] (turret_control) StdoutLine: {'line': b'[ 33%] Built target turret_control__rosidl_typesupport_fastrtps_cpp\n'}
+[5.985417] (turret_control) StdoutLine: {'line': b'[ 42%] Built target turret_control__rosidl_typesupport_introspection_cpp\n'}
+[5.991446] (turret_control) StdoutLine: {'line': b'[ 57%] Built target turret_control__rosidl_typesupport_c\n'}
+[5.991581] (turret_control) StdoutLine: {'line': b'[ 60%] Built target turret_control__rosidl_typesupport_introspection_c\n'}
+[5.992527] (turret_control) StdoutLine: {'line': b'[ 69%] Built target turret_control__rosidl_typesupport_fastrtps_c\n'}
+[6.008130] (turret_control) StdoutLine: {'line': b'[ 69%] Built target turret_control\n'}
+[6.018960] (-) TimerEvent: {}
+[6.026619] (turret_control) StdoutLine: {'line': b'[ 72%] Built target turret_control__py\n'}
+[6.035660] (turret_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turret_control__rosidl_generator_py\x1b[0m\n'}
+[6.047730] (turret_control) StdoutLine: {'line': b'[ 78%] Built target turret_control__rosidl_generator_py\n'}
+[6.056183] (turret_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.056586] (turret_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.056750] (turret_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.067249] (turret_control) StdoutLine: {'line': b'[ 84%] Built target turret_control__rosidl_typesupport_introspection_c__pyext\n'}
+[6.068290] (turret_control) StdoutLine: {'line': b'[ 90%] Built target turret_control__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.069147] (turret_control) StdoutLine: {'line': b'[ 96%] Built target turret_control__rosidl_typesupport_c__pyext\n'}
+[6.119068] (-) TimerEvent: {}
+[6.155745] (turret_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.156349] (turret_control) StdoutLine: {'line': b'writing turret_control.egg-info/PKG-INFO\n'}
+[6.156687] (turret_control) StdoutLine: {'line': b'writing dependency_links to turret_control.egg-info/dependency_links.txt\n'}
+[6.156860] (turret_control) StdoutLine: {'line': b'writing top-level names to turret_control.egg-info/top_level.txt\n'}
+[6.160382] (turret_control) StdoutLine: {'line': b"reading manifest file 'turret_control.egg-info/SOURCES.txt'\n"}
+[6.161302] (turret_control) StdoutLine: {'line': b"writing manifest file 'turret_control.egg-info/SOURCES.txt'\n"}
+[6.183225] (turret_control) StdoutLine: {'line': b'[ 96%] Built target ament_cmake_python_build_turret_control_egg\n'}
+[6.219201] (-) TimerEvent: {}
+[6.237599] (turret_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:12:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kturret_control/action/rotate_turret.hpp: No such file or directory\n'}
+[6.237792] (turret_control) StderrLine: {'line': b'   12 | #include \x1b[01;31m\x1b[K"turret_control/action/rotate_turret.hpp"\x1b[m\x1b[K\n'}
+[6.237841] (turret_control) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.237880] (turret_control) StderrLine: {'line': b'compilation terminated.\n'}
+[6.241400] (turret_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turret_node.dir/build.make:76: CMakeFiles/turret_node.dir/src/turret_node.cpp.o] Error 1\n'}
+[6.241647] (turret_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/turret_node.dir/all] Error 2\n'}
+[6.241905] (turret_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.244855] (turret_control) CommandEnded: {'returncode': 2}
+[6.290664] (turret_control) JobEnded: {'identifier': 'turret_control', 'rc': 2}
+[6.301512] (-) EventReactorShutdown: {}

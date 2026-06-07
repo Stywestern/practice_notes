@@ -1,0 +1,79 @@
+[0.015s] Invoking command in '/home/stywestern/defence_ws/build/turret_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/stywestern/defence_ws/build/turret_control -- -j20 -l20
+[0.040s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.158s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.164s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.323s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.325s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.330s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.338s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.350s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.382s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.383s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.321s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.364s] -- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)
+[5.389s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[5.397s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.645s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.937s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.046s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.068s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.090s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.090s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.090s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.107s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.115s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.115s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/stywestern/defence_ws/src/turret_control/include>
+[6.115s] -- Configured cppcheck exclude dirs and/or files: 
+[6.116s] -- Added test 'lint_cmake' to check CMake code style
+[6.116s] -- Added test 'uncrustify' to check C / C++ code style
+[6.116s] -- Configured uncrustify additional arguments: 
+[6.117s] -- Added test 'xmllint' to check XML markup files
+[6.119s] -- Configuring done
+[6.151s] -- Generating done
+[6.163s] -- Build files have been written to: /home/stywestern/defence_ws/build/turret_control
+[6.186s] [35m[1mConsolidate compiler generated dependencies of target turret_control__rosidl_generator_c[0m
+[6.193s] [  3%] Built target turret_control__cpp
+[6.194s] [ 12%] Built target turret_control__rosidl_generator_c
+[6.200s] [ 12%] Built target ament_cmake_python_symlink_turret_control
+[6.202s] [35m[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_cpp[0m
+[6.202s] [35m[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_introspection_cpp[0m
+[6.202s] [35m[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_fastrtps_cpp[0m
+[6.209s] [35m[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_introspection_c[0m
+[6.209s] [35m[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_c[0m
+[6.210s] [35m[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_fastrtps_c[0m
+[6.213s] [ 21%] Built target turret_control__rosidl_typesupport_cpp
+[6.214s] [ 30%] Built target turret_control__rosidl_typesupport_introspection_cpp
+[6.216s] [ 39%] Built target turret_control__rosidl_typesupport_fastrtps_cpp
+[6.221s] [ 48%] Built target turret_control__rosidl_typesupport_c
+[6.221s] [ 57%] Built target turret_control__rosidl_typesupport_fastrtps_c
+[6.222s] [ 66%] Built target turret_control__rosidl_typesupport_introspection_c
+[6.223s] [35m[1mConsolidate compiler generated dependencies of target turret_node[0m
+[6.238s] [ 69%] [32mBuilding CXX object CMakeFiles/turret_node.dir/src/turret_node.cpp.o[0m
+[6.238s] [ 69%] Built target turret_control
+[6.258s] [ 72%] Built target turret_control__py
+[6.270s] [35m[1mConsolidate compiler generated dependencies of target turret_control__rosidl_generator_py[0m
+[6.281s] [ 78%] Built target turret_control__rosidl_generator_py
+[6.290s] [35m[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.291s] [35m[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_c__pyext[0m
+[6.293s] [35m[1mConsolidate compiler generated dependencies of target turret_control__rosidl_typesupport_introspection_c__pyext[0m
+[6.301s] [ 84%] Built target turret_control__rosidl_typesupport_fastrtps_c__pyext
+[6.302s] [ 90%] Built target turret_control__rosidl_typesupport_c__pyext
+[6.302s] [ 96%] Built target turret_control__rosidl_typesupport_introspection_c__pyext
+[6.395s] running egg_info
+[6.396s] writing turret_control.egg-info/PKG-INFO
+[6.397s] writing dependency_links to turret_control.egg-info/dependency_links.txt
+[6.397s] writing top-level names to turret_control.egg-info/top_level.txt
+[6.398s] reading manifest file 'turret_control.egg-info/SOURCES.txt'
+[6.399s] writing manifest file 'turret_control.egg-info/SOURCES.txt'
+[6.420s] [ 96%] Built target ament_cmake_python_build_turret_control_egg
+[8.788s] [01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:[m[K In member function ‘[01m[Kvoid TurretNode::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<turret_control::action::RotateTurret> >)[m[K’:
+[8.788s] [01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:153:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[8.788s]   153 |          [01;31m[K}[m[K
+[8.788s]       |          [01;31m[K^[m[K
+[8.788s] [01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:160:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[8.788s]   160 |          [01;31m[K}[m[K
+[8.788s]       |          [01;31m[K^[m[K
+[11.430s] gmake[2]: *** [CMakeFiles/turret_node.dir/build.make:76: CMakeFiles/turret_node.dir/src/turret_node.cpp.o] Error 1
+[11.430s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/turret_node.dir/all] Error 2
+[11.431s] gmake: *** [Makefile:146: all] Error 2
+[11.433s] Invoked command in '/home/stywestern/defence_ws/build/turret_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/stywestern/defence_ws/build/turret_control -- -j20 -l20

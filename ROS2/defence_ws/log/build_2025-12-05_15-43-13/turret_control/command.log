@@ -1,0 +1,2 @@
+Invoking command in '/home/stywestern/defence_ws/build/turret_control': CMAKE_PREFIX_PATH=/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/stywestern/defence_ws/build/turret_control -- -j20 -l20
+Invoked command in '/home/stywestern/defence_ws/build/turret_control' returned '2': CMAKE_PREFIX_PATH=/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/stywestern/defence_ws/build/turret_control -- -j20 -l20

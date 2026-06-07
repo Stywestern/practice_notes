@@ -1,0 +1,79 @@
+[
+    {
+        "type": "NonFacultyMember",
+        "password": "password123",
+        "name": "Tim",
+        "has_card": false,
+        "possessions": [],
+        "kiosk_tokens": 3,
+        "web_tokens": 3,
+        "book_capacity": 3,
+        "due_date": 15
+    },
+    {
+        "type": "NonFacultyMember",
+        "password": "pword123",
+        "name": "Burak",
+        "has_card": false,
+        "possessions": [],
+        "kiosk_tokens": 3,
+        "web_tokens": 3,
+        "book_capacity": 3,
+        "due_date": 15
+    },
+    {
+        "type": "NonFacultyMember",
+        "password": "word123",
+        "name": "Kerem",
+        "has_card": true,
+        "possessions": [],
+        "kiosk_tokens": 3,
+        "web_tokens": 3,
+        "book_capacity": 3,
+        "due_date": 15
+    },
+    {
+        "type": "FacultyMember",
+        "password": "pass",
+        "name": "Mustafa",
+        "has_card": true,
+        "possessions": [],
+        "kiosk_tokens": 3,
+        "web_tokens": 3,
+        "book_capacity": 5,
+        "due_date": 30
+    },
+    {
+        "type": "FacultyMember",
+        "password": "123",
+        "name": "Binnur",
+        "has_card": true,
+        "possessions": [],
+        "kiosk_tokens": 3,
+        "web_tokens": 3,
+        "book_capacity": 5,
+        "due_date": 30
+    },
+    {
+        "type": "FacultyMember",
+        "password": "password123456",
+        "name": "Tankut",
+        "has_card": false,
+        "possessions": [],
+        "kiosk_tokens": 3,
+        "web_tokens": 3,
+        "book_capacity": 5,
+        "due_date": 30
+    },
+    {
+        "type": "NonFacultyGraduate",
+        "password": "cv123",
+        "name": "Sepideh",
+        "has_card": false,
+        "possessions": [],
+        "kiosk_tokens": 3,
+        "web_tokens": 3,
+        "book_capacity": 3,
+        "due_date": 15
+    }
+]

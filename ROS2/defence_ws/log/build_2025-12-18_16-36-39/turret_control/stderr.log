@@ -1,0 +1,7 @@
+[01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:12:10:[m[K [01;31m[Kfatal error: [m[Kturret_control/action/rotate_turret.hpp: No such file or directory
+   12 | #include [01;31m[K"turret_control/action/rotate_turret.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turret_node.dir/build.make:76: CMakeFiles/turret_node.dir/src/turret_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/turret_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

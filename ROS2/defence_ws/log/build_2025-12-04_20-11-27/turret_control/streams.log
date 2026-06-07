@@ -1,0 +1,25 @@
+[0.013s] Invoking command in '/home/stywestern/defence_ws/build/turret_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/stywestern/defence_ws/build/turret_control -- -j20 -l20
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/turret_node.dir/src/turret_node.cpp.o[0m
+[4.364s] [100%] [32m[1mLinking CXX executable turret_node[0m
+[4.582s] [100%] Built target turret_node
+[4.592s] Invoked command in '/home/stywestern/defence_ws/build/turret_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/stywestern/defence_ws/build/turret_control -- -j20 -l20
+[4.601s] Invoking command in '/home/stywestern/defence_ws/build/turret_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/stywestern/defence_ws/build/turret_control
+[4.607s] -- Install configuration: ""
+[4.608s] -- Execute custom install script
+[4.608s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/lib/turret_control/turret_node
+[4.608s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/ament_index/resource_index/package_run_dependencies/turret_control
+[4.608s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/ament_index/resource_index/parent_prefix_path/turret_control
+[4.609s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/ament_prefix_path.sh
+[4.609s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/ament_prefix_path.dsv
+[4.610s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/path.sh
+[4.610s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/path.dsv
+[4.610s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/local_setup.bash
+[4.610s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/local_setup.sh
+[4.610s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/local_setup.zsh
+[4.610s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/local_setup.dsv
+[4.611s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/package.dsv
+[4.618s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/ament_index/resource_index/packages/turret_control
+[4.618s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_controlConfig.cmake
+[4.619s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_controlConfig-version.cmake
+[4.619s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/package.xml
+[4.621s] Invoked command in '/home/stywestern/defence_ws/build/turret_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/stywestern/defence_ws/build/turret_control

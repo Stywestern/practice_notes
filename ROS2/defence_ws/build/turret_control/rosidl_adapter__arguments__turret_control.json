@@ -1,0 +1,6 @@
+{
+  "package_name": "turret_control",
+  "non_idl_tuples": [
+    "/home/stywestern/defence_ws/src/turret_control:action/RotateTurret.action"
+  ]
+}

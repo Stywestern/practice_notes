@@ -1,0 +1,136 @@
+[0.013s] Invoking command in '/home/stywestern/defence_ws/build/turret_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/stywestern/defence_ws/build/turret_control -- -j20 -l20
+[0.065s] [  3%] Built target turret_control__cpp
+[0.066s] [ 12%] Built target turret_control__rosidl_generator_c
+[0.083s] [ 12%] Built target ament_cmake_python_symlink_turret_control
+[0.099s] [ 21%] Built target turret_control__rosidl_typesupport_cpp
+[0.102s] [ 30%] Built target turret_control__rosidl_typesupport_introspection_c
+[0.106s] [ 39%] Built target turret_control__rosidl_typesupport_fastrtps_cpp
+[0.106s] [ 48%] Built target turret_control__rosidl_typesupport_c
+[0.110s] [ 57%] Built target turret_control__rosidl_typesupport_introspection_cpp
+[0.115s] [ 66%] Built target turret_control__rosidl_typesupport_fastrtps_c
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target turret_node[0m
+[0.133s] [ 66%] Built target turret_control
+[0.135s] [ 69%] [32mBuilding CXX object CMakeFiles/turret_node.dir/src/turret_node.cpp.o[0m
+[0.152s] [ 72%] Built target turret_control__py
+[0.172s] [ 78%] Built target turret_control__rosidl_generator_py
+[0.197s] [ 96%] Built target turret_control__rosidl_typesupport_c__pyext
+[0.197s] [ 96%] Built target turret_control__rosidl_typesupport_fastrtps_c__pyext
+[0.197s] [ 96%] Built target turret_control__rosidl_typesupport_introspection_c__pyext
+[0.303s] running egg_info
+[0.304s] writing turret_control.egg-info/PKG-INFO
+[0.304s] writing dependency_links to turret_control.egg-info/dependency_links.txt
+[0.304s] writing top-level names to turret_control.egg-info/top_level.txt
+[0.306s] reading manifest file 'turret_control.egg-info/SOURCES.txt'
+[0.306s] writing manifest file 'turret_control.egg-info/SOURCES.txt'
+[0.331s] [ 96%] Built target ament_cmake_python_build_turret_control_egg
+[9.459s] [100%] [32m[1mLinking CXX executable turret_node[0m
+[10.098s] [100%] Built target turret_node
+[10.112s] Invoked command in '/home/stywestern/defence_ws/build/turret_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/stywestern/defence_ws/build/turret_control -- -j20 -l20
+[10.121s] Invoking command in '/home/stywestern/defence_ws/build/turret_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/stywestern/defence_ws/build/turret_control
+[10.127s] -- Install configuration: ""
+[10.128s] -- Execute custom install script
+[10.129s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/ament_index/resource_index/rosidl_interfaces/turret_control
+[10.138s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__functions.h
+[10.145s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__struct.h
+[10.153s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__type_support.h
+[10.161s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/rotate_turret.h
+[10.169s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/msg/rosidl_generator_c__visibility_control.h
+[10.178s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/library_path.sh
+[10.186s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/library_path.dsv
+[10.196s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__rosidl_typesupport_fastrtps_c.h
+[10.206s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.215s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__builder.hpp
+[10.224s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__struct.hpp
+[10.232s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__traits.hpp
+[10.241s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__type_support.hpp
+[10.249s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/rotate_turret.hpp
+[10.257s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.265s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__rosidl_typesupport_fastrtps_cpp.hpp
+[10.273s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.284s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__rosidl_typesupport_introspection_c.h
+[10.292s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.301s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__rosidl_typesupport_introspection_cpp.hpp
+[10.309s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/pythonpath.sh
+[10.318s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/pythonpath.dsv
+[10.327s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control-0.0.0-py3.10.egg-info/PKG-INFO
+[10.337s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.346s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.356s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control-0.0.0-py3.10.egg-info/top_level.txt
+[10.366s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/__init__.py
+[10.375s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/_turret_control_s.ep.rosidl_typesupport_c.c
+[10.384s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/_turret_control_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.395s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/_turret_control_s.ep.rosidl_typesupport_introspection_c.c
+[10.404s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/action/__init__.py
+[10.412s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/action/_rotate_turret.py
+[10.421s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/action/_rotate_turret_s.c
+[10.429s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/libturret_control__rosidl_generator_py.so
+[10.438s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/turret_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.447s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/turret_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.456s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/turret_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.465s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/turret_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.465s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/turret_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.466s] -- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/turret_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.466s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/action/RotateTurret.idl
+[10.474s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/action/RotateTurret.action
+[10.483s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/lib/turret_control/turret_node
+[10.491s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/ament_index/resource_index/package_run_dependencies/turret_control
+[10.499s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/ament_index/resource_index/parent_prefix_path/turret_control
+[10.508s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/ament_prefix_path.sh
+[10.516s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/ament_prefix_path.dsv
+[10.525s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/path.sh
+[10.533s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/path.dsv
+[10.542s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/local_setup.bash
+[10.550s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/local_setup.sh
+[10.558s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/local_setup.zsh
+[10.566s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/local_setup.dsv
+[10.575s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/package.dsv
+[10.586s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/ament_index/resource_index/packages/turret_control
+[10.596s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/rosidl_cmake-extras.cmake
+[10.605s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.613s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.621s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/ament_cmake_export_libraries-extras.cmake
+[10.629s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/ament_cmake_export_targets-extras.cmake
+[10.637s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.645s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.653s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_controlConfig.cmake
+[10.660s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_controlConfig-version.cmake
+[10.668s] -- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/package.xml
+[10.676s] -- Installing: /home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_generator_c.so
+[10.676s] -- Set runtime path of "/home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_generator_c.so" to ""
+[10.676s] -- Installing: /home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_fastrtps_c.so
+[10.677s] -- Set runtime path of "/home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_fastrtps_c.so" to ""
+[10.677s] -- Installing: /home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_fastrtps_cpp.so
+[10.677s] -- Set runtime path of "/home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.678s] -- Installing: /home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_introspection_c.so
+[10.678s] -- Set runtime path of "/home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_introspection_c.so" to ""
+[10.678s] -- Installing: /home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_c.so
+[10.678s] -- Set runtime path of "/home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_c.so" to ""
+[10.678s] -- Installing: /home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_introspection_cpp.so
+[10.679s] -- Set runtime path of "/home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_introspection_cpp.so" to ""
+[10.679s] -- Installing: /home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_cpp.so
+[10.679s] -- Set runtime path of "/home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_cpp.so" to ""
+[10.721s] Listing '/home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control'...
+[10.721s] Compiling '/home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/__init__.py'...
+[10.721s] Listing '/home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/action'...
+[10.721s] Compiling '/home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/action/__init__.py'...
+[10.721s] Compiling '/home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/action/_rotate_turret.py'...
+[10.725s] -- Installing: /home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_generator_py.so
+[10.725s] -- Set runtime path of "/home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_generator_py.so" to ""
+[10.726s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_generator_cExport.cmake
+[10.726s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_generator_cExport-noconfig.cmake
+[10.726s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_typesupport_fastrtps_cExport.cmake
+[10.726s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.726s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_generator_cppExport.cmake
+[10.726s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.726s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.726s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_control__rosidl_typesupport_introspection_cExport.cmake
+[10.727s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_control__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.727s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_control__rosidl_typesupport_cExport.cmake
+[10.728s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_control__rosidl_typesupport_cExport-noconfig.cmake
+[10.728s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_control__rosidl_typesupport_introspection_cppExport.cmake
+[10.728s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.728s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_control__rosidl_typesupport_cppExport.cmake
+[10.728s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_control__rosidl_typesupport_cppExport-noconfig.cmake
+[10.728s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_generator_pyExport.cmake
+[10.728s] -- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_generator_pyExport-noconfig.cmake
+[10.731s] Invoked command in '/home/stywestern/defence_ws/build/turret_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/stywestern/defence_ws/build/turret_control

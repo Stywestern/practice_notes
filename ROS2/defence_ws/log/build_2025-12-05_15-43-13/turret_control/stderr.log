@@ -1,0 +1,10 @@
+[01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:[m[K In member function ‘[01m[Kvoid TurretNode::toggle_safety_callback(std::shared_ptr<std_srvs::srv::SetBool_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::SetBool_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:62:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   62 |          [01;31m[K}[m[K else {
+      |          [01;31m[K^[m[K
+[01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:65:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   65 |          [01;31m[K}[m[K
+      |          [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/turret_node.dir/build.make:76: CMakeFiles/turret_node.dir/src/turret_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turret_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

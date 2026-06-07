@@ -1,0 +1,17 @@
+const int relayPin = 26;
+
+void setup() {
+  Serial.begin(115200);
+  pinMode(relayPin, OUTPUT);
+}
+
+void loop() {
+
+  Serial.println("Relay ON");
+  digitalWrite(relayPin, HIGH);
+  delay(2000);
+
+  Serial.println("Relay OFF");
+  digitalWrite(relayPin, LOW);
+  delay(2000);
+}

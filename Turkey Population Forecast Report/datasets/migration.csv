@@ -1,0 +1,339 @@
+Year,Region,Net_Migration
+2013,"Adana, Mersin-TR62",-16349
+2013,"Ağrı, Kars, Iğdır, Ardahan-TRA2",-26054
+2013,Ankara-TR51,32851
+2013,"Antalya, Isparta, Burdur-TR61",24608
+2013,"Aydın, Denizli, Muğla-TR32",9958
+2013,"Balıkesir, Çanakkale-TR22",5550
+2013,"Bursa, Eskişehir, Bilecik-TR41",20367
+2013,"Erzurum, Erzincan, Bayburt-TRA1",-16711
+2013,"Gaziantep, Adıyaman, Kilis-TRC1",-8270
+2013,"Hatay, Kahramanmaraş, Osmaniye-TR63",-15277
+2013,İstanbul-TR10,66321
+2013,İzmir-TR31,13992
+2013,"Kastamonu, Çankırı, Sinop-TR82",11768
+2013,"Kayseri, Sivas, Yozgat-TR72",-10983
+2013,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir-TR71",-7638
+2013,"Kocaeli, Sakarya, Düzce, Bolu, Yalova-TR42",26677
+2013,"Konya, Karaman-TR52",-4624
+2013,"Malatya, Elazığ, Bingöl, Tunceli-TRB1",-4314
+2013,"Manisa, Afyonkarahisar, Kütahya, Uşak-TR33",-8209
+2013,"Mardin, Batman, Şırnak, Siirt-TRC3",-11517
+2013,"Samsun, Tokat, Çorum, Amasya-TR83",-30610
+2013,"Şanlıurfa, Diyarbakır-TRC2",-26529
+2013,"Tekirdağ, Edirne, Kırklareli-TR21",13710
+2013,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane-TR90",-9223
+2013,"Van, Muş, Bitlis, Hakkari-TRB2",-22658
+2013,"Zonguldak, Karabük, Bartın-TR81",-6836
+2014,"Adana, Mersin-TR62",-10864
+2014,"Ağrı, Kars, Iğdır, Ardahan-TRA2",-31011
+2014,Ankara-TR51,40009
+2014,"Antalya, Isparta, Burdur-TR61",24426
+2014,"Aydın, Denizli, Muğla-TR32",35502
+2014,"Balıkesir, Çanakkale-TR22",24522
+2014,"Bursa, Eskişehir, Bilecik-TR41",23616
+2014,"Erzurum, Erzincan, Bayburt-TRA1",-12077
+2014,"Gaziantep, Adıyaman, Kilis-TRC1",-7421
+2014,"Hatay, Kahramanmaraş, Osmaniye-TR63",-10121
+2014,İstanbul-TR10,14336
+2014,İzmir-TR31,22992
+2014,"Kastamonu, Çankırı, Sinop-TR82",-10352
+2014,"Kayseri, Sivas, Yozgat-TR72",-9068
+2014,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir-TR71",-16792
+2014,"Kocaeli, Sakarya, Düzce, Bolu, Yalova-TR42",32573
+2014,"Konya, Karaman-TR52",-770
+2014,"Malatya, Elazığ, Bingöl, Tunceli-TRB1",-9605
+2014,"Manisa, Afyonkarahisar, Kütahya, Uşak-TR33",-12379
+2014,"Mardin, Batman, Şırnak, Siirt-TRC3",-18769
+2014,"Samsun, Tokat, Çorum, Amasya-TR83",-16932
+2014,"Şanlıurfa, Diyarbakır-TRC2",-24459
+2014,"Tekirdağ, Edirne, Kırklareli-TR21",21926
+2014,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane-TR90",-4556
+2014,"Van, Muş, Bitlis, Hakkari-TRB2",-37192
+2014,"Zonguldak, Karabük, Bartın-TR81",-7534
+2015,"Adana, Mersin-TR62",-13778
+2015,"Ağrı, Kars, Iğdır, Ardahan-TRA2",-29498
+2015,Ankara-TR51,51047
+2015,"Antalya, Isparta, Burdur-TR61",28740
+2015,"Aydın, Denizli, Muğla-TR32",14727
+2015,"Balıkesir, Çanakkale-TR22",-3505
+2015,"Bursa, Eskişehir, Bilecik-TR41",28522
+2015,"Erzurum, Erzincan, Bayburt-TRA1",-17014
+2015,"Gaziantep, Adıyaman, Kilis-TRC1",-7781
+2015,"Hatay, Kahramanmaraş, Osmaniye-TR63",-14803
+2015,İstanbul-TR10,50543
+2015,İzmir-TR31,20849
+2015,"Kastamonu, Çankırı, Sinop-TR82",-1152
+2015,"Kayseri, Sivas, Yozgat-TR72",-18308
+2015,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir-TR71",-7086
+2015,"Kocaeli, Sakarya, Düzce, Bolu, Yalova-TR42",43645
+2015,"Konya, Karaman-TR52",-909
+2015,"Malatya, Elazığ, Bingöl, Tunceli-TRB1",-8325
+2015,"Manisa, Afyonkarahisar, Kütahya, Uşak-TR33",-3329
+2015,"Mardin, Batman, Şırnak, Siirt-TRC3",-32403
+2015,"Samsun, Tokat, Çorum, Amasya-TR83",-16613
+2015,"Şanlıurfa, Diyarbakır-TRC2",-30346
+2015,"Tekirdağ, Edirne, Kırklareli-TR21",24148
+2015,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane-TR90",-15180
+2015,"Van, Muş, Bitlis, Hakkari-TRB2",-40304
+2015,"Zonguldak, Karabük, Bartın-TR81",-1887
+2016,"Adana, Mersin-TR62",-7094
+2016,"Ağrı, Kars, Iğdır, Ardahan-TRA2",-27249
+2016,Ankara-TR51,17251
+2016,"Antalya, Isparta, Burdur-TR61",10021
+2016,"Aydın, Denizli, Muğla-TR32",18176
+2016,"Balıkesir, Çanakkale-TR22",10001
+2016,"Bursa, Eskişehir, Bilecik-TR41",32668
+2016,"Erzurum, Erzincan, Bayburt-TRA1",863
+2016,"Gaziantep, Adıyaman, Kilis-TRC1",-8992
+2016,"Hatay, Kahramanmaraş, Osmaniye-TR63",-3221
+2016,İstanbul-TR10,-71307
+2016,İzmir-TR31,23766
+2016,"Kastamonu, Çankırı, Sinop-TR82",2368
+2016,"Kayseri, Sivas, Yozgat-TR72",-7459
+2016,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir-TR71",7088
+2016,"Kocaeli, Sakarya, Düzce, Bolu, Yalova-TR42",45323
+2016,"Konya, Karaman-TR52",1494
+2016,"Malatya, Elazığ, Bingöl, Tunceli-TRB1",-4475
+2016,"Manisa, Afyonkarahisar, Kütahya, Uşak-TR33",1108
+2016,"Mardin, Batman, Şırnak, Siirt-TRC3",-37429
+2016,"Samsun, Tokat, Çorum, Amasya-TR83",1746
+2016,"Şanlıurfa, Diyarbakır-TRC2",-27554
+2016,"Tekirdağ, Edirne, Kırklareli-TR21",27386
+2016,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane-TR90",39460
+2016,"Van, Muş, Bitlis, Hakkari-TRB2",-46132
+2016,"Zonguldak, Karabük, Bartın-TR81",2193
+2017,"Adana, Mersin-TR62",-14226
+2017,"Ağrı, Kars, Iğdır, Ardahan-TRA2",-26745
+2017,Ankara-TR51,32042
+2017,"Antalya, Isparta, Burdur-TR61",15417
+2017,"Aydın, Denizli, Muğla-TR32",18563
+2017,"Balıkesir, Çanakkale-TR22",9175
+2017,"Bursa, Eskişehir, Bilecik-TR41",33860
+2017,"Erzurum, Erzincan, Bayburt-TRA1",-19954
+2017,"Gaziantep, Adıyaman, Kilis-TRC1",-7606
+2017,"Hatay, Kahramanmaraş, Osmaniye-TR63",-10484
+2017,İstanbul-TR10,-5972
+2017,İzmir-TR31,24618
+2017,"Kastamonu, Çankırı, Sinop-TR82",-49
+2017,"Kayseri, Sivas, Yozgat-TR72",-8879
+2017,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir-TR71",-3616
+2017,"Kocaeli, Sakarya, Düzce, Bolu, Yalova-TR42",44858
+2017,"Konya, Karaman-TR52",-5346
+2017,"Malatya, Elazığ, Bingöl, Tunceli-TRB1",-2960
+2017,"Manisa, Afyonkarahisar, Kütahya, Uşak-TR33",474
+2017,"Mardin, Batman, Şırnak, Siirt-TRC3",-3670
+2017,"Samsun, Tokat, Çorum, Amasya-TR83",-6739
+2017,"Şanlıurfa, Diyarbakır-TRC2",-21080
+2017,"Tekirdağ, Edirne, Kırklareli-TR21",25910
+2017,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane-TR90",-33489
+2017,"Van, Muş, Bitlis, Hakkari-TRB2",-31938
+2017,"Zonguldak, Karabük, Bartın-TR81",-2164
+2018,"Adana, Mersin-TR62",-25116
+2018,"Ağrı, Kars, Iğdır, Ardahan-TRA2",-11501
+2018,Ankara-TR51,-37365
+2018,"Antalya, Isparta, Burdur-TR61",27656
+2018,"Aydın, Denizli, Muğla-TR32",28024
+2018,"Balıkesir, Çanakkale-TR22",23615
+2018,"Bursa, Eskişehir, Bilecik-TR41",3262
+2018,"Erzurum, Erzincan, Bayburt-TRA1",964
+2018,"Gaziantep, Adıyaman, Kilis-TRC1",-16433
+2018,"Hatay, Kahramanmaraş, Osmaniye-TR63",-7133
+2018,İstanbul-TR10,-210321
+2018,İzmir-TR31,12979
+2018,"Kastamonu, Çankırı, Sinop-TR82",47934
+2018,"Kayseri, Sivas, Yozgat-TR72",13424
+2018,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir-TR71",19212
+2018,"Kocaeli, Sakarya, Düzce, Bolu, Yalova-TR42",16904
+2018,"Konya, Karaman-TR52",58
+2018,"Malatya, Elazığ, Bingöl, Tunceli-TRB1",16342
+2018,"Manisa, Afyonkarahisar, Kütahya, Uşak-TR33",6930
+2018,"Mardin, Batman, Şırnak, Siirt-TRC3",2637
+2018,"Samsun, Tokat, Çorum, Amasya-TR83",15424
+2018,"Şanlıurfa, Diyarbakır-TRC2",-19286
+2018,"Tekirdağ, Edirne, Kırklareli-TR21",16706
+2018,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane-TR90",81795
+2018,"Van, Muş, Bitlis, Hakkari-TRB2",-12506
+2018,"Zonguldak, Karabük, Bartın-TR81",5795
+2019,"Adana, Mersin-TR62",-7633
+2019,"Ağrı, Kars, Iğdır, Ardahan-TRA2",-20096
+2019,Ankara-TR51,57280
+2019,"Antalya, Isparta, Burdur-TR61",29680
+2019,"Aydın, Denizli, Muğla-TR32",10125
+2019,"Balıkesir, Çanakkale-TR22",1441
+2019,"Bursa, Eskişehir, Bilecik-TR41",24437
+2019,"Erzurum, Erzincan, Bayburt-TRA1",-15392
+2019,"Gaziantep, Adıyaman, Kilis-TRC1",-10779
+2019,"Hatay, Kahramanmaraş, Osmaniye-TR63",-19180
+2019,İstanbul-TR10,120371
+2019,İzmir-TR31,21475
+2019,"Kastamonu, Çankırı, Sinop-TR82",-28388
+2019,"Kayseri, Sivas, Yozgat-TR72",-18536
+2019,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir-TR71",-16117
+2019,"Kocaeli, Sakarya, Düzce, Bolu, Yalova-TR42",25244
+2019,"Konya, Karaman-TR52",-5095
+2019,"Malatya, Elazığ, Bingöl, Tunceli-TRB1",-17572
+2019,"Manisa, Afyonkarahisar, Kütahya, Uşak-TR33",1015
+2019,"Mardin, Batman, Şırnak, Siirt-TRC3",-18167
+2019,"Samsun, Tokat, Çorum, Amasya-TR83",-7987
+2019,"Şanlıurfa, Diyarbakır-TRC2",-26445
+2019,"Tekirdağ, Edirne, Kırklareli-TR21",11789
+2019,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane-TR90",-57318
+2019,"Van, Muş, Bitlis, Hakkari-TRB2",-24356
+2019,"Zonguldak, Karabük, Bartın-TR81",-9796
+2020,"Adana, Mersin-TR62",14339
+2020,"Ağrı, Kars, Iğdır, Ardahan-TRA2",-15413
+2020,Ankara-TR51,11997
+2020,"Antalya, Isparta, Burdur-TR61",13463
+2020,"Aydın, Denizli, Muğla-TR32",19003
+2020,"Balıkesir, Çanakkale-TR22",11187
+2020,"Bursa, Eskişehir, Bilecik-TR41",22800
+2020,"Erzurum, Erzincan, Bayburt-TRA1",-12912
+2020,"Gaziantep, Adıyaman, Kilis-TRC1",-1309
+2020,"Hatay, Kahramanmaraş, Osmaniye-TR63",10035
+2020,İstanbul-TR10,-53022
+2020,İzmir-TR31,14772
+2020,"Kastamonu, Çankırı, Sinop-TR82",-4588
+2020,"Kayseri, Sivas, Yozgat-TR72",-7157
+2020,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir-TR71",-7290
+2020,"Kocaeli, Sakarya, Düzce, Bolu, Yalova-TR42",33028
+2020,"Konya, Karaman-TR52",-5222
+2020,"Malatya, Elazığ, Bingöl, Tunceli-TRB1",-6424
+2020,"Manisa, Afyonkarahisar, Kütahya, Uşak-TR33",1162
+2020,"Mardin, Batman, Şırnak, Siirt-TRC3",-2827
+2020,"Samsun, Tokat, Çorum, Amasya-TR83",-7779
+2020,"Şanlıurfa, Diyarbakır-TRC2",-13365
+2020,"Tekirdağ, Edirne, Kırklareli-TR21",22540
+2020,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane-TR90",-8522
+2020,"Van, Muş, Bitlis, Hakkari-TRB2",-19688
+2020,"Zonguldak, Karabük, Bartın-TR81",-8808
+2021,"Adana, Mersin-TR62",-12696
+2021,"Ağrı, Kars, Iğdır, Ardahan-TRA2",-29459
+2021,Ankara-TR51,32098
+2021,"Antalya, Isparta, Burdur-TR61",14804
+2021,"Aydın, Denizli, Muğla-TR32",26760
+2021,"Balıkesir, Çanakkale-TR22",21712
+2021,"Bursa, Eskişehir, Bilecik-TR41",23704
+2021,"Erzurum, Erzincan, Bayburt-TRA1",-3122
+2021,"Gaziantep, Adıyaman, Kilis-TRC1",-14322
+2021,"Hatay, Kahramanmaraş, Osmaniye-TR63",-25270
+2021,İstanbul-TR10,-22837
+2021,İzmir-TR31,21924
+2021,"Kastamonu, Çankırı, Sinop-TR82",6716
+2021,"Kayseri, Sivas, Yozgat-TR72",-6460
+2021,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir-TR71",-4543
+2021,"Kocaeli, Sakarya, Düzce, Bolu, Yalova-TR42",39304
+2021,"Konya, Karaman-TR52",6924
+2021,"Malatya, Elazığ, Bingöl, Tunceli-TRB1",-5657
+2021,"Manisa, Afyonkarahisar, Kütahya, Uşak-TR33",4371
+2021,"Mardin, Batman, Şırnak, Siirt-TRC3",-19754
+2021,"Samsun, Tokat, Çorum, Amasya-TR83",2557
+2021,"Şanlıurfa, Diyarbakır-TRC2",-46963
+2021,"Tekirdağ, Edirne, Kırklareli-TR21",30286
+2021,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane-TR90",4126
+2021,"Van, Muş, Bitlis, Hakkari-TRB2",-49778
+2021,"Zonguldak, Karabük, Bartın-TR81",5575
+2022,"Adana, Mersin-TR62",-3155
+2022,"Ağrı, Kars, Iğdır, Ardahan-TRA2",-32636
+2022,Ankara-TR51,27192
+2022,"Antalya, Isparta, Burdur-TR61",14810
+2022,"Aydın, Denizli, Muğla-TR32",24733
+2022,"Balıkesir, Çanakkale-TR22",14191
+2022,"Bursa, Eskişehir, Bilecik-TR41",30553
+2022,"Erzurum, Erzincan, Bayburt-TRA1",-13327
+2022,"Gaziantep, Adıyaman, Kilis-TRC1",-9707
+2022,"Hatay, Kahramanmaraş, Osmaniye-TR63",-14511
+2022,İstanbul-TR10,-32788
+2022,İzmir-TR31,25114
+2022,"Kastamonu, Çankırı, Sinop-TR82",6091
+2022,"Kayseri, Sivas, Yozgat-TR72",-6075
+2022,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir-TR71",2270
+2022,"Kocaeli, Sakarya, Düzce, Bolu, Yalova-TR42",47220
+2022,"Konya, Karaman-TR52",231
+2022,"Malatya, Elazığ, Bingöl, Tunceli-TRB1",-5154
+2022,"Manisa, Afyonkarahisar, Kütahya, Uşak-TR33",3928
+2022,"Mardin, Batman, Şırnak, Siirt-TRC3",-19800
+2022,"Samsun, Tokat, Çorum, Amasya-TR83",-2464
+2022,"Şanlıurfa, Diyarbakır-TRC2",-36404
+2022,"Tekirdağ, Edirne, Kırklareli-TR21",33274
+2022,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane-TR90",-5862
+2022,"Van, Muş, Bitlis, Hakkari-TRB2",-48533
+2022,"Zonguldak, Karabük, Bartın-TR81",809
+2023,"Adana, Mersin-TR62",1290
+2023,"Ağrı, Kars, Iğdır, Ardahan-TRA2",-6382
+2023,Ankara-TR51,23960
+2023,"Antalya, Isparta, Burdur-TR61",36377
+2023,"Aydın, Denizli, Muğla-TR32",36980
+2023,"Balıkesir, Çanakkale-TR22",27580
+2023,"Bursa, Eskişehir, Bilecik-TR41",19663
+2023,"Erzurum, Erzincan, Bayburt-TRA1",-1361
+2023,"Gaziantep, Adıyaman, Kilis-TRC1",-28243
+2023,"Hatay, Kahramanmaraş, Osmaniye-TR63",-181553
+2023,İstanbul-TR10,-168623
+2023,İzmir-TR31,22122
+2023,"Kastamonu, Çankırı, Sinop-TR82",33959
+2023,"Kayseri, Sivas, Yozgat-TR72",23557
+2023,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir-TR71",35152
+2023,"Kocaeli, Sakarya, Düzce, Bolu, Yalova-TR42",42737
+2023,"Konya, Karaman-TR52",17331
+2023,"Malatya, Elazığ, Bingöl, Tunceli-TRB1",-50708
+2023,"Manisa, Afyonkarahisar, Kütahya, Uşak-TR33",5541
+2023,"Mardin, Batman, Şırnak, Siirt-TRC3",12555
+2023,"Samsun, Tokat, Çorum, Amasya-TR83",37149
+2023,"Şanlıurfa, Diyarbakır-TRC2",-14792
+2023,"Tekirdağ, Edirne, Kırklareli-TR21",30983
+2023,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane-TR90",51818
+2023,"Van, Muş, Bitlis, Hakkari-TRB2",-18938
+2023,"Zonguldak, Karabük, Bartın-TR81",11846
+2024,"Adana, Mersin-TR62",5105
+2024,"Ağrı, Kars, Iğdır, Ardahan-TRA2",-29180
+2024,Ankara-TR51,52029
+2024,"Antalya, Isparta, Burdur-TR61",21335
+2024,"Aydın, Denizli, Muğla-TR32",18584
+2024,"Balıkesir, Çanakkale-TR22",7966
+2024,"Bursa, Eskişehir, Bilecik-TR41",22020
+2024,"Erzurum, Erzincan, Bayburt-TRA1",-17804
+2024,"Gaziantep, Adıyaman, Kilis-TRC1",7366
+2024,"Hatay, Kahramanmaraş, Osmaniye-TR63",8780
+2024,İstanbul-TR10,26032
+2024,İzmir-TR31,15849
+2024,"Kastamonu, Çankırı, Sinop-TR82",-12747
+2024,"Kayseri, Sivas, Yozgat-TR72",-20718
+2024,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir-TR71",-9283
+2024,"Kocaeli, Sakarya, Düzce, Bolu, Yalova-TR42",30697
+2024,"Konya, Karaman-TR52",-3790
+2024,"Malatya, Elazığ, Bingöl, Tunceli-TRB1",-4032
+2024,"Manisa, Afyonkarahisar, Kütahya, Uşak-TR33",-6884
+2024,"Mardin, Batman, Şırnak, Siirt-TRC3",-26731
+2024,"Samsun, Tokat, Çorum, Amasya-TR83",2647
+2024,"Şanlıurfa, Diyarbakır-TRC2",-26574
+2024,"Tekirdağ, Edirne, Kırklareli-TR21",17589
+2024,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane-TR90",-27420
+2024,"Van, Muş, Bitlis, Hakkari-TRB2",-43604
+2024,"Zonguldak, Karabük, Bartın-TR81",-7232
+2025,"Adana, Mersin-TR62",-1244
+2025,"Ağrı, Kars, Iğdır, Ardahan-TRA2",-21304
+2025,Ankara-TR51,31172
+2025,"Antalya, Isparta, Burdur-TR61",26217
+2025,"Aydın, Denizli, Muğla-TR32",16131
+2025,"Balıkesir, Çanakkale-TR22",13659
+2025,"Bursa, Eskişehir, Bilecik-TR41",16889
+2025,"Erzurum, Erzincan, Bayburt-TRA1",-12991
+2025,"Gaziantep, Adıyaman, Kilis-TRC1",6385
+2025,"Hatay, Kahramanmaraş, Osmaniye-TR63",9587
+2025,İstanbul-TR10,-41346
+2025,İzmir-TR31,7355
+2025,"Kastamonu, Çankırı, Sinop-TR82",-323
+2025,"Kayseri, Sivas, Yozgat-TR72",-7262
+2025,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir-TR71",-1692
+2025,"Kocaeli, Sakarya, Düzce, Bolu, Yalova-TR42",32700
+2025,"Konya, Karaman-TR52",-2531
+2025,"Malatya, Elazığ, Bingöl, Tunceli-TRB1",-1965
+2025,"Manisa, Afyonkarahisar, Kütahya, Uşak-TR33",-5263
+2025,"Mardin, Batman, Şırnak, Siirt-TRC3",-16097
+2025,"Samsun, Tokat, Çorum, Amasya-TR83",4081
+2025,"Şanlıurfa, Diyarbakır-TRC2",-22281
+2025,"Tekirdağ, Edirne, Kırklareli-TR21",15139
+2025,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane-TR90",-8641
+2025,"Van, Muş, Bitlis, Hakkari-TRB2",-34508
+2025,"Zonguldak, Karabük, Bartın-TR81",-1867

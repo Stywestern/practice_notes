@@ -1,0 +1,156 @@
+[
+    {
+        "type": "ClassMaterial",
+        "id": "AIN3780",
+        "name": "Intro to Medical AI",
+        "owner": {
+            "type": "FacultyMember",
+            "password": "pass",
+            "name": "Mustafa",
+            "has_card": true,
+            "possessions": [],
+            "kiosk_tokens": 3,
+            "web_tokens": 3,
+            "book_capacity": 5,
+            "due_date": 30
+        },
+        "author": "\u00dcmit",
+        "keywords": [
+            "deep learning",
+            "medical ai"
+        ],
+        "days_in_possession": 40
+    },
+    {
+        "type": "ClassMaterial",
+        "id": "AIN3781",
+        "name": "Intro to Medical AI",
+        "owner": null,
+        "author": "\u00dcmit",
+        "keywords": [
+            "deep learning",
+            "medical ai"
+        ],
+        "days_in_possession": 0
+    },
+    {
+        "type": "ClassMaterial",
+        "id": "AIN3782",
+        "name": "Intro to Medical AI",
+        "owner": null,
+        "author": "\u00dcmit",
+        "keywords": [
+            "deep learning",
+            "medical ai"
+        ],
+        "days_in_possession": 0
+    },
+    {
+        "type": "ClassMaterial",
+        "id": "INE2301",
+        "name": "Statistics for Engineers",
+        "owner": null,
+        "author": "Tankut",
+        "keywords": [
+            "statistics",
+            "engineering"
+        ],
+        "days_in_possession": 68
+    },
+    {
+        "type": "ClassMaterial",
+        "id": "AIN3005",
+        "name": "Advanced Python",
+        "owner": null,
+        "author": "Binnur",
+        "keywords": [
+            "python",
+            "advanced"
+        ],
+        "days_in_possession": 0
+    },
+    {
+        "type": "ClassMaterial",
+        "id": "AIN3006",
+        "name": "Advanced Python",
+        "owner": null,
+        "author": "Binnur",
+        "keywords": [
+            "python",
+            "advanced"
+        ],
+        "days_in_possession": 0
+    },
+    {
+        "type": "ClassMaterial",
+        "id": "DER9301",
+        "name": "Science",
+        "owner": null,
+        "author": "NASA",
+        "keywords": [
+            "america",
+            "space"
+        ],
+        "days_in_possession": 10
+    },
+    {
+        "type": "ClassMaterial",
+        "id": "DER7332",
+        "name": "Nature",
+        "owner": null,
+        "author": "Scientist",
+        "keywords": [
+            "science",
+            "news"
+        ],
+        "days_in_possession": 0
+    },
+    {
+        "type": "NonClassMaterial",
+        "id": "ED2000",
+        "name": "Huzur",
+        "owner": null,
+        "author": "Ahmet Hamdi Tanp\u0131nar",
+        "keywords": [
+            "melancholy",
+            "character drama"
+        ],
+        "days_in_possession": 0
+    },
+    {
+        "type": "NonClassMaterial",
+        "id": "ED3000",
+        "name": "Tutunamayanlar",
+        "owner": null,
+        "author": "O\u011fuz Atay",
+        "keywords": [
+            "loneliness",
+            "postmodernism"
+        ],
+        "days_in_possession": 20
+    },
+    {
+        "type": "NonClassMaterial",
+        "id": "ED3001",
+        "name": "Tutunamayanlar",
+        "owner": null,
+        "author": "O\u011fuz Atay",
+        "keywords": [
+            "loneliness",
+            "postmodernism"
+        ],
+        "days_in_possession": 0
+    },
+    {
+        "type": "NonClassMaterial",
+        "id": "ED4000",
+        "name": "Kokoro",
+        "owner": null,
+        "author": "Soseki",
+        "keywords": [
+            "japan",
+            "friendship"
+        ],
+        "days_in_possession": 0
+    }
+]

@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000156] (turret_control) JobQueued: {'identifier': 'turret_control', 'dependencies': OrderedDict()}
+[0.000434] (turret_control) JobStarted: {'identifier': 'turret_control'}
+[0.007319] (turret_control) JobProgress: {'identifier': 'turret_control', 'progress': 'cmake'}
+[0.008749] (turret_control) JobProgress: {'identifier': 'turret_control', 'progress': 'build'}
+[0.008819] (turret_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/stywestern/defence_ws/build/turret_control', '--', '-j20', '-l20'], 'cwd': '/home/stywestern/defence_ws/build/turret_control', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'stywestern'), ('GIT_ASKPASS', '/home/stywestern/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/stywestern'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c2d2c0e7-5993-41e3-98ac-b367a49cc8b4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/stywestern/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/stywestern/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/stywestern/ros2_ws_python/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'stywestern'), ('NAME', 'Code'), ('_', '/usr/bin/colcon'), ('WSL_INTEROP', '/run/WSL/563_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/stywestern/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/hp/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/hp/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/hp/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/hp/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/hp/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/hp/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/hp/AppData/Local/Programs/Ollama:/snap/bin'), ('WT_SESSION', '2cfbd428-5682-4f81-b285-58a1a41bae8b'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/stywestern/.vscode-server/data/User/workspaceStorage/8f0f8c96764129fa4a7c058e106905fb/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b8d024e480.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/stywestern/defence_ws/build/turret_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/stywestern/ros2_ws_python/build/my_robot_controller:/home/stywestern/ros2_ws_python/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.050314] (turret_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turret_node\x1b[0m\n'}
+[0.065535] (turret_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turret_node.dir/src/turret_node.cpp.o\x1b[0m\n'}
+[0.099372] (-) TimerEvent: {}
+[0.199706] (-) TimerEvent: {}
+[0.300277] (-) TimerEvent: {}
+[0.400841] (-) TimerEvent: {}
+[0.501197] (-) TimerEvent: {}
+[0.601535] (-) TimerEvent: {}
+[0.701894] (-) TimerEvent: {}
+[0.802323] (-) TimerEvent: {}
+[0.902715] (-) TimerEvent: {}
+[1.003103] (-) TimerEvent: {}
+[1.103487] (-) TimerEvent: {}
+[1.203845] (-) TimerEvent: {}
+[1.304259] (-) TimerEvent: {}
+[1.404599] (-) TimerEvent: {}
+[1.504940] (-) TimerEvent: {}
+[1.605298] (-) TimerEvent: {}
+[1.705734] (-) TimerEvent: {}
+[1.806161] (-) TimerEvent: {}
+[1.906491] (-) TimerEvent: {}
+[2.006847] (-) TimerEvent: {}
+[2.107268] (-) TimerEvent: {}
+[2.207631] (-) TimerEvent: {}
+[2.307977] (-) TimerEvent: {}
+[2.408383] (-) TimerEvent: {}
+[2.508800] (-) TimerEvent: {}
+[2.609288] (-) TimerEvent: {}
+[2.709655] (-) TimerEvent: {}
+[2.810056] (-) TimerEvent: {}
+[2.910463] (-) TimerEvent: {}
+[3.010904] (-) TimerEvent: {}
+[3.111239] (-) TimerEvent: {}
+[3.212248] (-) TimerEvent: {}
+[3.312581] (-) TimerEvent: {}
+[3.412968] (-) TimerEvent: {}
+[3.513479] (-) TimerEvent: {}
+[3.613875] (-) TimerEvent: {}
+[3.714194] (-) TimerEvent: {}
+[3.814589] (-) TimerEvent: {}
+[3.915111] (-) TimerEvent: {}
+[4.015500] (-) TimerEvent: {}
+[4.115934] (-) TimerEvent: {}
+[4.216438] (-) TimerEvent: {}
+[4.316845] (-) TimerEvent: {}
+[4.417277] (-) TimerEvent: {}
+[4.517676] (-) TimerEvent: {}
+[4.618135] (-) TimerEvent: {}
+[4.718566] (-) TimerEvent: {}
+[4.819040] (-) TimerEvent: {}
+[4.919423] (-) TimerEvent: {}
+[5.019824] (-) TimerEvent: {}
+[5.120197] (-) TimerEvent: {}
+[5.220684] (-) TimerEvent: {}
+[5.321130] (-) TimerEvent: {}
+[5.421580] (-) TimerEvent: {}
+[5.521986] (-) TimerEvent: {}
+[5.622312] (-) TimerEvent: {}
+[5.722666] (-) TimerEvent: {}
+[5.823081] (-) TimerEvent: {}
+[5.923401] (-) TimerEvent: {}
+[6.023777] (-) TimerEvent: {}
+[6.124219] (-) TimerEvent: {}
+[6.224603] (-) TimerEvent: {}
+[6.324989] (-) TimerEvent: {}
+[6.425372] (-) TimerEvent: {}
+[6.525859] (-) TimerEvent: {}
+[6.626169] (-) TimerEvent: {}
+[6.726520] (-) TimerEvent: {}
+[6.826846] (-) TimerEvent: {}
+[6.927211] (-) TimerEvent: {}
+[7.027645] (-) TimerEvent: {}
+[7.127968] (-) TimerEvent: {}
+[7.228407] (-) TimerEvent: {}
+[7.328814] (-) TimerEvent: {}
+[7.429227] (-) TimerEvent: {}
+[7.529687] (-) TimerEvent: {}
+[7.630024] (-) TimerEvent: {}
+[7.730382] (-) TimerEvent: {}
+[7.830829] (-) TimerEvent: {}
+[7.931136] (-) TimerEvent: {}
+[8.031551] (-) TimerEvent: {}
+[8.132005] (-) TimerEvent: {}
+[8.232548] (-) TimerEvent: {}
+[8.332980] (-) TimerEvent: {}
+[8.433335] (-) TimerEvent: {}
+[8.533702] (-) TimerEvent: {}
+[8.634056] (-) TimerEvent: {}
+[8.734546] (-) TimerEvent: {}
+[8.758386] (turret_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turret_node\x1b[0m\n'}
+[8.834723] (-) TimerEvent: {}
+[8.935271] (-) TimerEvent: {}
+[9.035625] (-) TimerEvent: {}
+[9.135978] (-) TimerEvent: {}
+[9.236327] (-) TimerEvent: {}
+[9.266880] (turret_control) StdoutLine: {'line': b'[100%] Built target turret_node\n'}
+[9.277493] (turret_control) CommandEnded: {'returncode': 0}
+[9.278747] (turret_control) JobProgress: {'identifier': 'turret_control', 'progress': 'install'}
+[9.285850] (turret_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/stywestern/defence_ws/build/turret_control'], 'cwd': '/home/stywestern/defence_ws/build/turret_control', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'stywestern'), ('GIT_ASKPASS', '/home/stywestern/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/stywestern'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c2d2c0e7-5993-41e3-98ac-b367a49cc8b4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/stywestern/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/stywestern/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/stywestern/ros2_ws_python/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'stywestern'), ('NAME', 'Code'), ('_', '/usr/bin/colcon'), ('WSL_INTEROP', '/run/WSL/563_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/stywestern/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/hp/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/hp/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/hp/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/hp/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/hp/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/hp/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/hp/AppData/Local/Programs/Ollama:/snap/bin'), ('WT_SESSION', '2cfbd428-5682-4f81-b285-58a1a41bae8b'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/stywestern/.vscode-server/data/User/workspaceStorage/8f0f8c96764129fa4a7c058e106905fb/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b8d024e480.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/stywestern/defence_ws/build/turret_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/stywestern/ros2_ws_python/build/my_robot_controller:/home/stywestern/ros2_ws_python/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[9.293599] (turret_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.294265] (turret_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.294555] (turret_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/lib/turret_control/turret_node\n'}
+[9.294788] (turret_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/ament_index/resource_index/package_run_dependencies/turret_control\n'}
+[9.294850] (turret_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/ament_index/resource_index/parent_prefix_path/turret_control\n'}
+[9.295363] (turret_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/ament_prefix_path.sh\n'}
+[9.295856] (turret_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/ament_prefix_path.dsv\n'}
+[9.296531] (turret_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/path.sh\n'}
+[9.296913] (turret_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/path.dsv\n'}
+[9.297131] (turret_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/local_setup.bash\n'}
+[9.297284] (turret_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/local_setup.sh\n'}
+[9.297733] (turret_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/local_setup.zsh\n'}
+[9.298188] (turret_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/local_setup.dsv\n'}
+[9.298389] (turret_control) StdoutLine: {'line': b'-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/package.dsv\n'}
+[9.306526] (turret_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/ament_index/resource_index/packages/turret_control\n'}
+[9.306805] (turret_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_controlConfig.cmake\n'}
+[9.306930] (turret_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_controlConfig-version.cmake\n'}
+[9.307119] (turret_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/share/turret_control/package.xml\n'}
+[9.308622] (turret_control) CommandEnded: {'returncode': 0}
+[9.325228] (turret_control) JobEnded: {'identifier': 'turret_control', 'rc': 0}
+[9.326268] (-) EventReactorShutdown: {}

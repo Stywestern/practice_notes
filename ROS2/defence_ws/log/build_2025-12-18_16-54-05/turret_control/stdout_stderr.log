@@ -1,0 +1,34 @@
+[  3%] Built target turret_control__cpp
+[ 12%] Built target turret_control__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_turret_control
+[ 21%] Built target turret_control__rosidl_typesupport_cpp
+[ 30%] Built target turret_control__rosidl_typesupport_fastrtps_cpp
+[ 39%] Built target turret_control__rosidl_typesupport_introspection_cpp
+[ 48%] Built target turret_control__rosidl_typesupport_introspection_c
+[ 57%] Built target turret_control__rosidl_typesupport_fastrtps_c
+[ 66%] Built target turret_control__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target turret_node[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/turret_node.dir/src/turret_node.cpp.o[0m
+[ 69%] Built target turret_control
+[ 72%] Built target turret_control__py
+[ 78%] Built target turret_control__rosidl_generator_py
+[ 84%] Built target turret_control__rosidl_typesupport_c__pyext
+[ 90%] Built target turret_control__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target turret_control__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing turret_control.egg-info/PKG-INFO
+writing dependency_links to turret_control.egg-info/dependency_links.txt
+writing top-level names to turret_control.egg-info/top_level.txt
+reading manifest file 'turret_control.egg-info/SOURCES.txt'
+writing manifest file 'turret_control.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_turret_control_egg
+[01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:[m[K In member function ‘[01m[Kvoid TurretNode::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<turret_control::action::RotateTurret> >)[m[K’:
+[01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:153:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  153 |          [01;31m[K}[m[K
+      |          [01;31m[K^[m[K
+[01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:160:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  160 |          [01;31m[K}[m[K
+      |          [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/turret_node.dir/build.make:76: CMakeFiles/turret_node.dir/src/turret_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/turret_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

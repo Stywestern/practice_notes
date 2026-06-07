@@ -1,0 +1,132 @@
+[  3%] Built target turret_control__cpp
+[ 12%] Built target turret_control__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_turret_control
+[ 21%] Built target turret_control__rosidl_typesupport_cpp
+[ 30%] Built target turret_control__rosidl_typesupport_introspection_c
+[ 39%] Built target turret_control__rosidl_typesupport_fastrtps_cpp
+[ 48%] Built target turret_control__rosidl_typesupport_c
+[ 57%] Built target turret_control__rosidl_typesupport_introspection_cpp
+[ 66%] Built target turret_control__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target turret_node[0m
+[ 66%] Built target turret_control
+[ 69%] [32mBuilding CXX object CMakeFiles/turret_node.dir/src/turret_node.cpp.o[0m
+[ 72%] Built target turret_control__py
+[ 78%] Built target turret_control__rosidl_generator_py
+[ 96%] Built target turret_control__rosidl_typesupport_c__pyext
+[ 96%] Built target turret_control__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target turret_control__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing turret_control.egg-info/PKG-INFO
+writing dependency_links to turret_control.egg-info/dependency_links.txt
+writing top-level names to turret_control.egg-info/top_level.txt
+reading manifest file 'turret_control.egg-info/SOURCES.txt'
+writing manifest file 'turret_control.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_turret_control_egg
+[100%] [32m[1mLinking CXX executable turret_node[0m
+[100%] Built target turret_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/ament_index/resource_index/rosidl_interfaces/turret_control
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__functions.h
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__struct.h
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__type_support.h
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/rotate_turret.h
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/library_path.sh
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/library_path.dsv
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__builder.hpp
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__struct.hpp
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__traits.hpp
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__type_support.hpp
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/rotate_turret.hpp
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/include/turret_control/turret_control/action/detail/rotate_turret__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/pythonpath.sh
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/pythonpath.dsv
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/__init__.py
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/_turret_control_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/_turret_control_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/_turret_control_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/action/__init__.py
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/action/_rotate_turret.py
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/action/_rotate_turret_s.c
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/libturret_control__rosidl_generator_py.so
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/turret_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/turret_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/turret_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/turret_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/turret_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/turret_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/action/RotateTurret.idl
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/action/RotateTurret.action
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/lib/turret_control/turret_node
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/ament_index/resource_index/package_run_dependencies/turret_control
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/ament_index/resource_index/parent_prefix_path/turret_control
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/ament_prefix_path.sh
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/ament_prefix_path.dsv
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/path.sh
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/environment/path.dsv
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/local_setup.bash
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/local_setup.sh
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/local_setup.zsh
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/local_setup.dsv
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/package.dsv
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/ament_index/resource_index/packages/turret_control
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_controlConfig.cmake
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_controlConfig-version.cmake
+-- Symlinking: /home/stywestern/defence_ws/install/turret_control/share/turret_control/package.xml
+-- Installing: /home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_generator_c.so
+-- Set runtime path of "/home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_generator_c.so" to ""
+-- Installing: /home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_c.so
+-- Set runtime path of "/home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_c.so" to ""
+-- Installing: /home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_typesupport_cpp.so" to ""
+Listing '/home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control'...
+Compiling '/home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/__init__.py'...
+Listing '/home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/action'...
+Compiling '/home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/action/__init__.py'...
+Compiling '/home/stywestern/defence_ws/install/turret_control/local/lib/python3.10/dist-packages/turret_control/action/_rotate_turret.py'...
+-- Installing: /home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_generator_py.so
+-- Set runtime path of "/home/stywestern/defence_ws/install/turret_control/lib/libturret_control__rosidl_generator_py.so" to ""
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_generator_cExport.cmake
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_generator_cppExport.cmake
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_control__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_control__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_control__rosidl_typesupport_cExport.cmake
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_control__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_control__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_control__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/turret_control__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_generator_pyExport.cmake
+-- Installing: /home/stywestern/defence_ws/install/turret_control/share/turret_control/cmake/export_turret_control__rosidl_generator_pyExport-noconfig.cmake

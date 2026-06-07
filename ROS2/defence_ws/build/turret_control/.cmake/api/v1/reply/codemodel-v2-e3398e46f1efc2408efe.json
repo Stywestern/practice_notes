@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-967de13d59c4e83dd990.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "turret_control__py",
+					"jsonFile" : "directory-turret_control__py-a5298c24882cea9030bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/stywestern/defence_ws/build/turret_control/turret_control__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "turret_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_turret_control_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_turret_control_egg-8a9cdd63bd0defe81ee2.json",
+					"name" : "ament_cmake_python_build_turret_control_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_turret_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_turret_control-218bff15696e12466639.json",
+					"name" : "ament_cmake_python_symlink_turret_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turret_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turret_control-577ca4fc009ad9248a8a.json",
+					"name" : "turret_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turret_control__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turret_control__cpp-d3032a57a94bb417e463.json",
+					"name" : "turret_control__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "turret_control__py::@f0bc82b05a39f0f5d9df",
+					"jsonFile" : "target-turret_control__py-6259e78be51a3aedd3fd.json",
+					"name" : "turret_control__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turret_control__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turret_control__rosidl_generator_c-9483f89d30f54b3f55e1.json",
+					"name" : "turret_control__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turret_control__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turret_control__rosidl_generator_py-ba2032e16dda7953d50c.json",
+					"name" : "turret_control__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turret_control__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turret_control__rosidl_typesupport_c-a3aea4b69cf9dd8759d2.json",
+					"name" : "turret_control__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turret_control__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turret_control__rosidl_typesupport_c__pyext-8529905f6181598eaa39.json",
+					"name" : "turret_control__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turret_control__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turret_control__rosidl_typesupport_cpp-752110e4d6d4640cd596.json",
+					"name" : "turret_control__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turret_control__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turret_control__rosidl_typesupport_fastrtps_c-0c5d770596cd2974f931.json",
+					"name" : "turret_control__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turret_control__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turret_control__rosidl_typesupport_fastrtps_c__pyext-7beba04740e5eb72f16f.json",
+					"name" : "turret_control__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turret_control__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turret_control__rosidl_typesupport_fastrtps_cpp-6165b75d4b17b302eac4.json",
+					"name" : "turret_control__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turret_control__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turret_control__rosidl_typesupport_introspection_c-e65b366e397628760a7e.json",
+					"name" : "turret_control__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turret_control__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turret_control__rosidl_typesupport_introspection_c__pyext-76eb360a4d3f479928f9.json",
+					"name" : "turret_control__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turret_control__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turret_control__rosidl_typesupport_introspection_cpp-7bf578daa2e3ebdab76f.json",
+					"name" : "turret_control__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turret_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turret_control_uninstall-89176d2708fd53bd0a9f.json",
+					"name" : "turret_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turret_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turret_node-02964a5e8a154ff59418.json",
+					"name" : "turret_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d35ee126feaabdeb7e2a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/stywestern/defence_ws/build/turret_control",
+		"source" : "/home/stywestern/defence_ws/src/turret_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

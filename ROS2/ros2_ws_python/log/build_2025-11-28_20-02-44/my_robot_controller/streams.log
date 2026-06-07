@@ -1,0 +1,37 @@
+[0.636s] Invoking command in '/home/stywestern/ros2_ws_python/src/my_robot_controller': PYTHONPATH=/home/stywestern/ros2_ws_python/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stywestern/ros2_ws_python/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/stywestern/ros2_ws_python/build/my_robot_controller/build install --record /home/stywestern/ros2_ws_python/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[0.817s] running egg_info
+[0.818s] creating ../../build/my_robot_controller/my_robot_controller.egg-info
+[0.819s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[0.819s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[0.819s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[0.819s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[0.819s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[0.819s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.820s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.821s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.821s] running build
+[0.821s] running build_py
+[0.821s] creating /home/stywestern/ros2_ws_python/build/my_robot_controller/build
+[0.822s] creating /home/stywestern/ros2_ws_python/build/my_robot_controller/build/lib
+[0.822s] creating /home/stywestern/ros2_ws_python/build/my_robot_controller/build/lib/my_robot_controller
+[0.822s] copying my_robot_controller/my_first_node.py -> /home/stywestern/ros2_ws_python/build/my_robot_controller/build/lib/my_robot_controller
+[0.823s] copying my_robot_controller/__init__.py -> /home/stywestern/ros2_ws_python/build/my_robot_controller/build/lib/my_robot_controller
+[0.823s] running install
+[0.824s] running install_lib
+[0.824s] creating /home/stywestern/ros2_ws_python/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.824s] copying /home/stywestern/ros2_ws_python/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/stywestern/ros2_ws_python/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.825s] copying /home/stywestern/ros2_ws_python/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/stywestern/ros2_ws_python/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.825s] byte-compiling /home/stywestern/ros2_ws_python/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[0.825s] byte-compiling /home/stywestern/ros2_ws_python/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[0.826s] running install_data
+[0.826s] creating /home/stywestern/ros2_ws_python/install/my_robot_controller/share/ament_index
+[0.826s] creating /home/stywestern/ros2_ws_python/install/my_robot_controller/share/ament_index/resource_index
+[0.826s] creating /home/stywestern/ros2_ws_python/install/my_robot_controller/share/ament_index/resource_index/packages
+[0.826s] copying resource/my_robot_controller -> /home/stywestern/ros2_ws_python/install/my_robot_controller/share/ament_index/resource_index/packages
+[0.826s] copying package.xml -> /home/stywestern/ros2_ws_python/install/my_robot_controller/share/my_robot_controller
+[0.826s] running install_egg_info
+[0.828s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/stywestern/ros2_ws_python/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[0.828s] running install_scripts
+[0.845s] Installing test_node script to /home/stywestern/ros2_ws_python/install/my_robot_controller/lib/my_robot_controller
+[0.845s] writing list of installed files to '/home/stywestern/ros2_ws_python/build/my_robot_controller/install.log'
+[0.865s] Invoked command in '/home/stywestern/ros2_ws_python/src/my_robot_controller' returned '0': PYTHONPATH=/home/stywestern/ros2_ws_python/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stywestern/ros2_ws_python/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/stywestern/ros2_ws_python/build/my_robot_controller/build install --record /home/stywestern/ros2_ws_python/build/my_robot_controller/install.log --single-version-externally-managed install_data

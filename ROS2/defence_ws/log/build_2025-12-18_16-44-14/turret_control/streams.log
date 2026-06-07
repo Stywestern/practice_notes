@@ -1,0 +1,146 @@
+[0.018s] Invoking command in '/home/stywestern/defence_ws/build/turret_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/stywestern/defence_ws/src/turret_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/stywestern/defence_ws/install/turret_control
+[0.294s] -- The C compiler identification is GNU 11.4.0
+[0.813s] -- The CXX compiler identification is GNU 11.4.0
+[1.207s] -- Detecting C compiler ABI info
+[1.353s] -- Detecting C compiler ABI info - done
+[1.360s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.361s] -- Detecting C compile features
+[1.362s] -- Detecting C compile features - done
+[1.366s] -- Detecting CXX compiler ABI info
+[1.558s] -- Detecting CXX compiler ABI info - done
+[1.564s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.565s] -- Detecting CXX compile features
+[1.565s] -- Detecting CXX compile features - done
+[1.579s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.727s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.795s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.837s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[2.052s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.058s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.070s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.112s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.176s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.181s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.767s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.770s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.556s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.582s] -- Looking for pthread.h
+[6.709s] -- Looking for pthread.h - found
+[6.709s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.830s] -- Found Threads: TRUE  
+[6.915s] -- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)
+[7.032s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[7.051s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.329s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.647s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.774s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.919s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.922s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.374s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.374s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.375s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.375s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.395s] -- Found PythonExtra: .so  
+[8.458s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[8.458s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[8.458s]   rosidl_target_interfaces()
+[8.458s] Call Stack (most recent call first):
+[8.458s]   CMakeLists.txt:43 (rosidl_target_interfaces)
+[8.458s] 
+[8.458s] [0m
+[8.461s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.492s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.493s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/stywestern/defence_ws/src/turret_control/include>
+[8.493s] -- Configured cppcheck exclude dirs and/or files: 
+[8.494s] -- Added test 'lint_cmake' to check CMake code style
+[8.496s] -- Added test 'uncrustify' to check C / C++ code style
+[8.496s] -- Configured uncrustify additional arguments: 
+[8.497s] -- Added test 'xmllint' to check XML markup files
+[8.501s] -- Configuring done
+[8.542s] -- Generating done
+[8.553s] -- Build files have been written to: /home/stywestern/defence_ws/build/turret_control
+[8.564s] Invoked command in '/home/stywestern/defence_ws/build/turret_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/stywestern/defence_ws/src/turret_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/stywestern/defence_ws/install/turret_control
+[8.567s] Invoking command in '/home/stywestern/defence_ws/build/turret_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/stywestern/defence_ws/build/turret_control -- -j20 -l20
+[8.601s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.609s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.616s] [  6%] Built target ament_cmake_python_symlink_turret_control
+[8.821s] running egg_info
+[8.822s] creating turret_control.egg-info
+[8.822s] writing turret_control.egg-info/PKG-INFO
+[8.822s] writing dependency_links to turret_control.egg-info/dependency_links.txt
+[8.822s] writing top-level names to turret_control.egg-info/top_level.txt
+[8.823s] writing manifest file 'turret_control.egg-info/SOURCES.txt'
+[8.826s] reading manifest file 'turret_control.egg-info/SOURCES.txt'
+[8.827s] writing manifest file 'turret_control.egg-info/SOURCES.txt'
+[8.852s] [  6%] Built target ament_cmake_python_build_turret_control_egg
+[8.986s] [  6%] Built target turret_control__cpp
+[8.994s] [  9%] [32mBuilding C object CMakeFiles/turret_control__rosidl_generator_c.dir/rosidl_generator_c/turret_control/action/detail/rotate_turret__functions.c.o[0m
+[8.994s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.994s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.995s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.141s] [ 21%] [32m[1mLinking C shared library libturret_control__rosidl_generator_c.so[0m
+[9.259s] [ 21%] Built target turret_control__rosidl_generator_c
+[9.270s] [ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.272s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.272s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.290s] [ 33%] [32mBuilding CXX object CMakeFiles/turret_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turret_control/action/rotate_turret__type_support.cpp.o[0m
+[9.337s] [ 36%] [32mBuilding CXX object CMakeFiles/turret_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turret_control/action/detail/rotate_turret__type_support.cpp.o[0m
+[9.402s] [ 39%] [32mBuilding CXX object CMakeFiles/turret_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turret_control/action/detail/dds_fastrtps/rotate_turret__type_support.cpp.o[0m
+[9.559s] [ 42%] [32mBuilding CXX object CMakeFiles/turret_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/turret_control/action/rotate_turret__type_support.cpp.o[0m
+[9.612s] [ 45%] [32m[1mLinking CXX shared library libturret_control__rosidl_typesupport_c.so[0m
+[9.622s] [ 48%] [32mBuilding C object CMakeFiles/turret_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turret_control/action/detail/rotate_turret__type_support.c.o[0m
+[9.676s] [ 51%] [32mBuilding CXX object CMakeFiles/turret_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turret_control/action/detail/rotate_turret__type_support_c.cpp.o[0m
+[9.678s] [ 54%] [32m[1mLinking C shared library libturret_control__rosidl_typesupport_introspection_c.so[0m
+[9.748s] [ 54%] Built target turret_control__rosidl_typesupport_c
+[9.809s] [ 54%] Built target turret_control__rosidl_typesupport_introspection_c
+[9.838s] [ 57%] [32m[1mLinking CXX shared library libturret_control__rosidl_typesupport_cpp.so[0m
+[9.971s] [ 60%] [32m[1mLinking CXX shared library libturret_control__rosidl_typesupport_introspection_cpp.so[0m
+[9.981s] [ 60%] Built target turret_control__rosidl_typesupport_cpp
+[10.016s] [ 63%] [32m[1mLinking CXX shared library libturret_control__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.060s] [ 66%] [32m[1mLinking CXX shared library libturret_control__rosidl_typesupport_fastrtps_c.so[0m
+[10.115s] [ 66%] Built target turret_control__rosidl_typesupport_introspection_cpp
+[10.156s] [ 66%] Built target turret_control__rosidl_typesupport_fastrtps_cpp
+[10.196s] [ 66%] Built target turret_control__rosidl_typesupport_fastrtps_c
+[10.213s] [ 66%] Built target turret_control
+[10.233s] [ 69%] [32mBuilding CXX object CMakeFiles/turret_node.dir/src/turret_node.cpp.o[0m
+[10.236s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.847s] [ 72%] Built target turret_control__py
+[10.869s] [ 75%] [32mBuilding C object CMakeFiles/turret_control__rosidl_generator_py.dir/rosidl_generator_py/turret_control/action/_rotate_turret_s.c.o[0m
+[11.038s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/turret_control/libturret_control__rosidl_generator_py.so[0m
+[11.145s] [ 78%] Built target turret_control__rosidl_generator_py
+[11.165s] [ 81%] [32mBuilding C object CMakeFiles/turret_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turret_control/_turret_control_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.165s] [ 84%] [32mBuilding C object CMakeFiles/turret_control__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turret_control/_turret_control_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.172s] [ 87%] [32mBuilding C object CMakeFiles/turret_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turret_control/_turret_control_s.ep.rosidl_typesupport_c.c.o[0m
+[11.275s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/turret_control/turret_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.277s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/turret_control/turret_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.287s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/turret_control/turret_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.373s] [ 96%] Built target turret_control__rosidl_typesupport_fastrtps_c__pyext
+[11.374s] [ 96%] Built target turret_control__rosidl_typesupport_introspection_c__pyext
+[11.408s] [ 96%] Built target turret_control__rosidl_typesupport_c__pyext
+[12.999s] [01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:[m[K In constructor ‘[01m[KTurretNode::TurretNode()[m[K’:
+[13.000s] [01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:32:36:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_accepted[m[K’ is not a member of ‘[01m[KTurretNode[m[K’
+[13.000s]    32 |             std::bind(&TurretNode::[01;31m[Khandle_accepted[m[K, this, std::placeholders::_1),
+[13.000s]       |                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[13.000s] [01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:33:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[13.000s]    33 |          [01;31m[K)[m[K;
+[13.000s]       |          [01;31m[K^[m[K
+[13.020s] [01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:[m[K In member function ‘[01m[Kvoid TurretNode::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<turret_control::action::RotateTurret> >)[m[K’:
+[13.020s] [01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:120:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K,[m[K’ token
+[13.020s]   120 |          RCLCPP_INFO(this->get_logger(), "Executing goal...")[01;31m[K,[m[K
+[13.020s]       |                                                              [01;31m[K^[m[K
+[13.020s] [01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:120:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[13.020s] [01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:123:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kloop_rate[m[K’
+[13.020s]   123 |          rclcpp::Rate [01;31m[Kloop_rate[m[K(10); // 10hz
+[13.020s]       |                       [01;31m[K^~~~~~~~~[m[K
+[13.039s] [01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:152:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope
+[13.039s]   152 |             [01;31m[Kloop_rate[m[K.sleep()
+[13.039s]       |             [01;31m[K^~~~~~~~~[m[K
+[13.039s] [01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:160:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[13.040s]   160 |          [01;31m[K}[m[K
+[13.040s]       |          [01;31m[K^[m[K
+[15.986s] gmake[2]: *** [CMakeFiles/turret_node.dir/build.make:76: CMakeFiles/turret_node.dir/src/turret_node.cpp.o] Error 1
+[15.986s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/turret_node.dir/all] Error 2
+[15.986s] gmake: *** [Makefile:146: all] Error 2
+[15.989s] Invoked command in '/home/stywestern/defence_ws/build/turret_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stywestern/ros2_ws_python/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/stywestern/defence_ws/build/turret_control -- -j20 -l20

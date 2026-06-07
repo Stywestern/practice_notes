@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "turret_control__py",
+		"source" : "/home/stywestern/defence_ws/build/turret_control/turret_control__py"
+	}
+}

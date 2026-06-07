@@ -1,0 +1,31 @@
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:43 (rosidl_target_interfaces)
+
+[0m
+[01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:[m[K In constructor ‘[01m[KTurretNode::TurretNode()[m[K’:
+[01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:32:36:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_accepted[m[K’ is not a member of ‘[01m[KTurretNode[m[K’
+   32 |             std::bind(&TurretNode::[01;31m[Khandle_accepted[m[K, this, std::placeholders::_1),
+      |                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:33:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   33 |          [01;31m[K)[m[K;
+      |          [01;31m[K^[m[K
+[01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:[m[K In member function ‘[01m[Kvoid TurretNode::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<turret_control::action::RotateTurret> >)[m[K’:
+[01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:120:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K,[m[K’ token
+  120 |          RCLCPP_INFO(this->get_logger(), "Executing goal...")[01;31m[K,[m[K
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:120:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:123:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kloop_rate[m[K’
+  123 |          rclcpp::Rate [01;31m[Kloop_rate[m[K(10); // 10hz
+      |                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:152:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope
+  152 |             [01;31m[Kloop_rate[m[K.sleep()
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/stywestern/defence_ws/src/turret_control/src/turret_node.cpp:160:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  160 |          [01;31m[K}[m[K
+      |          [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/turret_node.dir/build.make:76: CMakeFiles/turret_node.dir/src/turret_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/turret_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
